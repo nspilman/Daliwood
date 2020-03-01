@@ -1,0 +1,2647 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://www.dollywood.com/Plan-Your-Visit -->
+<html class="no-js" lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/nr-1167.min.js"></script><script type="text/javascript" async="" src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/ga.js"></script><script async="" src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/gtm.js"></script><script async="" src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/gtm(1).js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"d03ca2a54d","applicationID":"194510395","transactionName":"NlJUZBdRW0dWV00KCg8Ye2YmH2ZdQ1FaDBcEdFleEUJaWFtRS0wsD1NTSA==","queueTime":0,"applicationTime":574,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"d03ca2a54d",applicationID:"194510395"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+    
+
+
+
+<meta content="Plan-Your-Visit" property="og:title"><meta content="https://www.dollywood.com:443/Plan-Your-Visit" property="og:url">
+<link href="https://www.dollywood.com/-/media/Project/HFE/DW/Samples/Card-Collection/butterfly-alt.png" rel="shortcut icon">
+<style>
+.attraction-filter-grid {
+    padding: 0px 0px !important; 
+}
+</style>
+
+    <title>Plan Your Visit | Dollywood Parks &amp; Resorts</title>
+
+<!-- Global site tag (gtag.js) - Google Analytics - added 200114 -->
+<script async="" src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+ gtag('config', 'UA-111372898-1',  {
+ 'linker': {
+   'domains': ['synxis.com']
+ },
+   'optimize_id': 'GTM-NP3BFHL',
+    
+});
+gtag('config', 'DC-4384249');
+</script>
+
+<!-- wca pixel - added 200114 -->
+<meta name="com.silverpop.brandeddomains" content="www.pages03.net,dollywood.com,store.dollywood.com">
+<script src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/iMAWebCookie.js" type="text/javascript"></script>
+<!--END wca-->
+
+<style>
+.sidebar-layout {
+    margin-bottom: 0px !important;
+}
+/* in page content buttons */
+.btn.red{
+    font-family: 'Montserrat',sans-serif!important;
+    font-weight: 700!important;
+    letter-spacing: 1.5px!important;
+    text-align: center!important;
+    font-size: 14px!important;
+    text-transform: uppercase!important;
+    letter-spacing: 2px!important;
+    border-width: 1px!important;
+    border-style: solid!important;
+    border-radius: 3px!important;
+    padding: 15px 25px!important;
+    display: inline-block!important;
+    transition: all 350ms ease!important;
+    border-color: #4a4a4a!important;
+    color: #4a4a4a!important;
+    background-color: rgba(255,255,255,.2)!important;
+    margin-top: 30px!important;
+    margin-bottom: 20px!important;
+    display: inline-block!important;
+}
+.btn.red:hover {
+    background-color: #4374a6!important;
+    border-color: transparent!important;
+    color: #fff!important;
+}
+/* Partner Logo CSS fix */
+footer .footer-main-nav .column .section .sponsors li a img {
+    width: auto!important;
+}
+
+
+/* Fix Tertiary Link on Menu */
+.mobile-header .mobile-navigation .secondary-placement li a, .mobile-header .mobile-navigation .tertiary-placement li a {
+display:block;
+}
+
+</style>
+
+<link href="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/optimized-min.css" rel="stylesheet"><link href="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/optimized-min(1).css" rel="stylesheet"><link href="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/optimized-min(2).css" rel="stylesheet"><link href="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/optimized-min(3).css" rel="stylesheet"><link href="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/optimized-min(4).css" rel="stylesheet">    
+<meta name="VIcurrentDateTime" content="637186385632216821">
+<script type="text/javascript" src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/VisitorIdentification.js"></script><script data-dapp-detection="">
+(function() {
+  let alreadyInsertedMetaTag = false
+
+  function __insertDappDetected() {
+    if (!alreadyInsertedMetaTag) {
+      const meta = document.createElement('meta')
+      meta.name = 'dapp-detected'
+      document.head.appendChild(meta)
+      alreadyInsertedMetaTag = true
+    }
+  }
+
+  if (window.hasOwnProperty('web3')) {
+    // Note a closure can't be used for this var because some sites like
+    // www.wnyc.org do a second script execution via eval for some reason.
+    window.__disableDappDetectionInsertion = true
+    // Likely oldWeb3 is undefined and it has a property only because
+    // we defined it. Some sites like wnyc.org are evaling all scripts
+    // that exist again, so this is protection against multiple calls.
+    if (window.web3 === undefined) {
+      return
+    }
+    __insertDappDetected()
+  } else {
+    var oldWeb3 = window.web3
+    Object.defineProperty(window, 'web3', {
+      configurable: true,
+      set: function (val) {
+        if (!window.__disableDappDetectionInsertion)
+          __insertDappDetected()
+        oldWeb3 = val
+      },
+      get: function () {
+        if (!window.__disableDappDetectionInsertion)
+          __insertDappDetected()
+        return oldWeb3
+      }
+    })
+  }
+})()</script>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="server" content="SCV902P-CD3">
+</head>
+<body class="default-device bodyclass">
+    
+
+
+<form id="_CRSFform" action="https://www.dollywood.com/Plan-Your-Visit#" method="post">
+    <input name="__RequestVerificationToken" type="hidden" value="8APjn0OmUQ4bhyGMAFDOTOteuhib1oKRfIEXVymCLeVNsBm9hRYXKWEJ0k5NkS5Kyon1hL7vzWEHUhvOc0ZEcd9BYvxyzOiG2doG_AWOP1w1">
+</form>
+
+    <!-- #wrapper -->
+<div id="wrapper">
+
+
+
+
+
+
+    <header class="desktop-header" aria-label="desktop-header">
+        <a class="skip-content" href="https://www.dollywood.com/Plan-Your-Visit#main-content" role="button" aria-label="skip to main content">Skip To Main Content</a>
+        
+
+    <nav class="utility" aria-label="utility-navigation">
+            <div class="utility-left">
+                        <ul>
+                                    <li class="no-icon">
+<a href="https://www.dollywood.com/Calendar">Hours &amp; Calendar</a>                                    </li>
+                                    <li class="no-icon">
+<a href="https://www.dollywood.com/Contact-Us">Contact</a>                                    </li>
+                        </ul>
+            </div>
+
+        <div class="site-logo">
+            <a href="https://www.dollywood.com/">
+<img src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/dollywood-logo-color.png" alt="">            </a>
+        </div>
+                <div class="utility-right">
+                    <ul>
+                        
+
+    <li>
+
+
+<a href="https://www.dollywood.com/login?returnUrl=/Plan-Your-Visit&amp;active=signin" class="topBarLogin">Sign In |&nbsp;&nbsp;</a><a href="https://www.dollywood.com/login?returnUrl=/Plan-Your-Visit&amp;active=registration" class="topBarRegister">Register<span class="fas fa-user"></span></a>    </li>
+
+
+                        
+
+    <li id="toggle-search">
+<a href="https://www.dollywood.com/search" data-placeholder="Search..." target="|Custom">Search<span class="fas fa-search"></span></a>    </li>
+
+                        
+
+    <li>
+<a href="https://www.dollywood.com/Store/shoppingcart">Cart                <span class="fas fa-shopping-cart cxa-headerminicart-component" data-cxa-component-class="HeaderMinicart" data-cxa-component-initialized="true" data-cxa-component-type="component">
+                    <!-- ko if: totalNumberOfProducts() > 0 --><!-- /ko -->
+                </span>
+</a>    </li>
+
+                        
+                    </ul>
+                </div>
+
+
+    </nav>
+
+
+        <div class="header-secondary-container">
+            <nav class="primary" aria-label="primary-navigation">
+                <ul>
+                                <li class="page-active">
+<a href="https://www.dollywood.com/Plan-Your-Visit">Plan Your Visit</a>
+
+                                    <div class="submenu-container">
+
+
+    <div class="secondary-container">
+
+            <div class="column">
+
+        <ul class="secondary has-submenu">
+            <li>
+                                <a href="https://www.dollywood.com/Plan-Your-Visit" class="linkdark">Planning</a>
+
+    <ul class="tertiary">
+            <li>
+                
+<a href="https://www.dollywood.com/Plan-Your-Visit/Itinerary-Planner">Trip Planner</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Plan-Your-Visit/FAQs">FAQs</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Plan-Your-Visit/Accessibility">Park Accessibility</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Plan-Your-Visit/Guest-Services">Park Guest Services</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Plan-Your-Visit/Gifts">Gifts</a>
+            </li>
+    </ul>
+
+            </li>
+        </ul>
+                
+            </div>
+            <div class="column">
+
+        <ul class="secondary has-submenu">
+            <li>
+                                <a href="https://www.dollywood.com/Resort/Resort-Tickets" class="linkdark">Stay &amp; Play</a>
+
+    <ul class="tertiary">
+            <li>
+                
+<a href="https://www.dollywood.com/Resort/Resort-Tickets">Resort Packages</a>
+            </li>
+            <li>
+                
+<a href="https://dollywood.reservedirect.com/">Off-site Hotel Packages</a>
+            </li>
+    </ul>
+
+            </li>
+        </ul>
+        <ul class="secondary has-submenu">
+            <li>
+                                <a href="https://insiders.dollywood.com/" class="linkdark">Insider Information</a>
+
+    <ul class="tertiary">
+            <li>
+                
+<a href="https://blog.dollywood.com/">Our Blog</a>
+            </li>
+            <li>
+                
+<a href="https://insiders.dollywood.com/">Dollywood Insiders</a>
+            </li>
+    </ul>
+
+            </li>
+        </ul>
+                
+            </div>
+            <div class="column">
+
+        <ul class="secondary has-submenu">
+            <li>
+                                <a href="https://www.dollywood.com/Groups" class="linkdark">Bring A Group</a>
+
+    <ul class="tertiary">
+            <li>
+                
+<a href="https://www.dollywood.com/Groups/General">Groups of 15+</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Groups/Education">Educational Groups</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Groups/Corporate">Corporate Groups</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Groups/TT">Tour &amp; Travel Groups</a>
+            </li>
+    </ul>
+
+            </li>
+        </ul>
+                
+            </div>
+    </div>
+
+                                        
+<div class="icon-callout-container">
+    <ul class="icon-callouts">
+
+                <li>
+<a href="https://www.dollywood.com/Tickets/Season-Passes">                                <div class="icon" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DW/Rides-Attractions/DragonFlier/DF-halfspot.jpg);"></div>
+                            <div class="text">
+SEASON PASSES
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                </svg>
+                            </div>
+</a>                </li>
+                <li>
+<a href="https://www.dollywood.com/Deals/Special-Offers">                                <div class="icon" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DW/Rides-Attractions/Wild-Eagle/TITH-Half-Spot.jpg);"></div>
+                            <div class="text">
+SPECIAL OFFERS
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                </svg>
+                            </div>
+</a>                </li>
+                <li>
+<a href="https://www.dollywood.com/Tickets">                                <div class="icon" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DW/Entertainment/Live-at-the-Back-Porch/LiveattheBackPorch-HS.jpg);"></div>
+                            <div class="text">
+TICKETS &amp; PRICING
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                </svg>
+                            </div>
+</a>                </li>
+
+    </ul>
+</div>                                                                            </div>
+                                </li>
+                                <li class="">
+<a href="https://www.dollywood.com/themepark">Theme Park</a>
+
+                                    <div class="submenu-container">
+
+
+    <div class="secondary-container">
+
+            <div class="column">
+
+        <ul class="secondary has-submenu">
+            <li>
+                                <a href="https://www.dollywood.com/themepark" class="linkdark">Explore The Park</a>
+
+    <ul class="tertiary">
+            <li>
+                
+<a href="https://www.dollywood.com/themepark/Festivals">Festivals &amp; Events</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/themepark/Rides">Rides &amp; Attractions</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/themepark/Entertainment">Shows &amp; Entertainment</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/themepark/Dining">Dining</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/themepark/Shops">Shops</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/themepark/Crafts">Crafts</a>
+            </li>
+    </ul>
+
+            </li>
+        </ul>
+                
+            </div>
+            <div class="column">
+
+        <ul class="secondary has-submenu">
+            <li>
+                                <a href="https://www.dollywood.com/themepark/Guest-Services" class="linkdark">Guest Information</a>
+
+    <ul class="tertiary">
+            <li>
+                
+<a href="https://www.dollywood.com/Daily-Schedule">Daily Schedule</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Calendar">Hours &amp; Calendar</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/themepark/map">Park Map</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/themepark/Guest-Services/FAQs">FAQs</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/themepark/Guest-Services">Guest Services</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/themepark/Guest-Services/Accessibility">Accessibility</a>
+            </li>
+    </ul>
+
+            </li>
+        </ul>
+                
+            </div>
+            <div class="column">
+
+        <ul class="secondary has-submenu">
+            <li>
+                                <a href="https://www.dollywood.com/Store/Add-Ons" class="linkdark">Enhance Your Experience</a>
+
+    <ul class="tertiary">
+            <li>
+                
+<a href="https://www.dollywood.com/Store/Add-Ons">All Add-Ons</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/themepark/Guest-Services/TimeSaver-Pass">TimeSaver Passes</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/themepark/Special-Experiences">Special Experiences</a>
+            </li>
+    </ul>
+
+            </li>
+        </ul>
+                
+            </div>
+    </div>
+
+                                        
+<div class="icon-callout-container">
+    <ul class="icon-callouts">
+
+                <li>
+<a href="https://www.dollywood.com/Tickets/Season-Passes">                                <div class="icon" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DW/Rides-Attractions/DragonFlier/DF-halfspot.jpg);"></div>
+                            <div class="text">
+SEASON PASSES
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                </svg>
+                            </div>
+</a>                </li>
+                <li>
+<a href="https://www.dollywood.com/Deals/Special-Offers">                                <div class="icon" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DW/Rides-Attractions/DW-Express/insiders-tn.jpg);"></div>
+                            <div class="text">
+SPECIAL OFFERS
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                </svg>
+                            </div>
+</a>                </li>
+                <li>
+<a href="https://www.dollywood.com/Tickets">                                <div class="icon" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DW/Entertainment/Live-at-the-Back-Porch/LiveattheBackPorch-HS.jpg);"></div>
+                            <div class="text">
+TICKETS &amp; PRICING
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                </svg>
+                            </div>
+</a>                </li>
+
+    </ul>
+</div>                                                                            </div>
+                                </li>
+                                <li class="">
+<a href="https://www.dollywood.com/waterpark">Water Park</a>
+
+                                    <div class="submenu-container">
+
+
+    <div class="secondary-container">
+
+            <div class="column">
+
+        <ul class="secondary has-submenu">
+            <li>
+                                <a href="https://www.dollywood.com/waterpark" class="linkdark">Explore The Park</a>
+
+    <ul class="tertiary">
+            <li>
+                
+<a href="https://www.dollywood.com/waterpark/Rides">Slides &amp; Attractions</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/waterpark/Restaurants">Dining</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/waterpark/Shops">Shops</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/waterpark/Events">Events</a>
+            </li>
+    </ul>
+
+            </li>
+        </ul>
+                
+            </div>
+            <div class="column">
+
+        <ul class="secondary has-submenu">
+            <li>
+                                <a href="https://www.dollywood.com/waterpark/Guest-Services" class="linkdark">Guest Information</a>
+
+    <ul class="tertiary">
+            <li>
+                
+<a href="https://www.dollywood.com/Calendar">Hours &amp; Calendar</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/waterpark/map">Park Map</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/waterpark/Guest-Services/FAQs">FAQs</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/waterpark/Guest-Services">Guest Services</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/waterpark/Guest-Services/Accessibility">Accessibility</a>
+            </li>
+    </ul>
+
+            </li>
+        </ul>
+                
+            </div>
+            <div class="column">
+
+        <ul class="secondary has-submenu">
+            <li>
+                                <a href="https://www.dollywood.com/Store/Add-Ons" class="linkdark">Enhance Your Experience</a>
+
+    <ul class="tertiary">
+            <li>
+                
+<a href="https://www.dollywood.com/Store/Add-Ons">All Add-Ons</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/waterpark/Dining-Pass">All-New Dining Pass</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/waterpark/Timesaver-H2O">TimeSaver H2O</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/waterpark/RetreatsandCanopies">Reserve Before You Go</a>
+            </li>
+    </ul>
+
+            </li>
+        </ul>
+                
+            </div>
+    </div>
+
+                                        
+<div class="icon-callout-container">
+    <ul class="icon-callouts">
+
+                <li>
+<a href="https://www.dollywood.com/Tickets/Season-Passes">                                <div class="icon" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DSC/Slides/Big-Bear-Plunge/BBP-HS.jpg);"></div>
+                            <div class="text">
+SEASON PASSES
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                </svg>
+                            </div>
+</a>                </li>
+                <li>
+<a href="https://www.dollywood.com/Deals/Special-Offers">                                <div class="icon" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DSC/Slides/TailSpinRacer/TSR-hs.jpg);"></div>
+                            <div class="text">
+SPECIAL OFFERS
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                </svg>
+                            </div>
+</a>                </li>
+                <li>
+<a href="https://www.dollywood.com/Tickets">                                <div class="icon" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DSC/Slides/Downbound-Float-Trip/hs-ride.jpg);"></div>
+                            <div class="text">
+TICKETS &amp; PRICING
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                </svg>
+                            </div>
+</a>                </li>
+
+    </ul>
+</div>                                                                            </div>
+                                </li>
+                                <li class="">
+<a href="https://www.dollywood.com/Resort">Resort</a>
+
+                                    <div class="submenu-container">
+
+
+    <div class="secondary-container">
+
+            <div class="column">
+
+        <ul class="secondary has-submenu">
+            <li>
+                                <a href="https://www.dollywood.com/Resort" class="linkdark">Explore The Resort</a>
+
+    <ul class="tertiary">
+            <li>
+                
+<a href="https://www.dollywood.com/Resort/About-the-Resort">About The Resort &amp; Amenities</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Resort/DMR-Spa">Spa</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Resort/Pools">Pools</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Resort/Dining">Dining</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Resort/Shopping">Shopping</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Resort/Accommodations">Room Types</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Resort/Kids-Activities">Kids' Activities</a>
+            </li>
+    </ul>
+
+            </li>
+        </ul>
+                
+            </div>
+            <div class="column">
+
+        <ul class="secondary has-submenu">
+            <li>
+                                <a href="https://www.dollywood.com/Resort/About-the-Resort" class="linkdark">Guest Information</a>
+
+    <ul class="tertiary">
+            <li>
+                
+<a href="https://www.dollywood.com/Resort/About-the-Resort/Included-With-Your-Resort-Stay">Included With Your Stay</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Resort/DMR-Events">Resort Events</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Resort/Resort-Tickets">Exclusive Park Tickets</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Resort/Meetings">Meetings &amp; Events</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Resort/Weddings">Weddings</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Resort/About-the-Resort/PassholderDiscounts">Season Passholders</a>
+            </li>
+    </ul>
+
+            </li>
+        </ul>
+                
+            </div>
+            <div class="column">
+
+        <ul class="secondary has-submenu">
+            <li>
+                                <a href="https://be.synxis.com/?hotel=69958&amp;chain=10069" class="linkdark">Book Today</a>
+
+    <ul class="tertiary">
+            <li>
+                
+<a href="https://be.synxis.com/?hotel=69958&amp;chain=10069">Check Rates</a>
+            </li>
+    </ul>
+
+            </li>
+        </ul>
+                
+            </div>
+    </div>
+
+                                        
+<div class="icon-callout-container">
+    <ul class="icon-callouts">
+
+                <li>
+<a href="https://be.synxis.com/?hotel=69958&amp;chain=10069">                                <div class="icon" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DMR/Guests/DMR_SoLongSummer_HalfSpot.jpg);"></div>
+                            <div class="text">
+CHECK RATES
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                </svg>
+                            </div>
+</a>                </li>
+                <li>
+<a href="https://www.dollywood.com/Deals/Special-Offers">                                <div class="icon" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DMR/Guests/DMR-Summer-Planner-thumb.jpg);"></div>
+                            <div class="text">
+SPECIAL OFFERS
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                </svg>
+                            </div>
+</a>                </li>
+                <li>
+<a href="https://www.dollywood.com/Resort/Resort-Tickets">                                <div class="icon" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DMR/Camp-DW/camp-dw-thumb.jpg);"></div>
+                            <div class="text">
+PACKAGES
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                </svg>
+                            </div>
+</a>                </li>
+
+    </ul>
+</div>                                                                            </div>
+                                </li>
+                                <li class="">
+<a href="https://www.dollywood.com/Cabins">Cabins</a>
+
+                                    <div class="submenu-container">
+
+
+    <div class="secondary-container">
+
+            <div class="column">
+
+        <ul class="secondary has-submenu">
+            <li>
+                                <a href="https://www.dollywood.com/Cabins" class="linkdark">Explore The Cabins</a>
+
+    <ul class="tertiary">
+            <li>
+                
+<a href="https://cabins.dollywood.com/booking/results.cfm">Cabin Search</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/PigeonForge/Cabin-Amenities">Amenities</a>
+            </li>
+    </ul>
+
+            </li>
+        </ul>
+                
+            </div>
+            <div class="column">
+
+        <ul class="secondary has-submenu">
+            <li>
+                                <a href="https://www.dollywood.com/PigeonForge/Cabin-Amenities" class="linkdark">Guest Information</a>
+
+    <ul class="tertiary">
+            <li>
+                
+<a href="https://www.dollywood.com/PigeonForge/Included-With-Your-Cabin-Stay">Included With Your Cabin Stay</a>
+            </li>
+            <li>
+                
+<a href="https://cabins.dollywood.com/packages">Cabin Packages</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/PigeonForge/Cabin-Tickets">Exclusive Park Tickets</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/PigeonForge/Reservation-Policy">Cabin Policies</a>
+            </li>
+    </ul>
+
+            </li>
+        </ul>
+                
+            </div>
+            <div class="column">
+
+        <ul class="secondary has-submenu">
+            <li>
+                                <a href="https://cabins.dollywood.com/booking/results.cfm" class="linkdark">Book Today</a>
+
+    <ul class="tertiary">
+            <li>
+                
+<a href="https://cabins.dollywood.com/booking/results.cfm">Check Rates</a>
+            </li>
+    </ul>
+
+            </li>
+        </ul>
+                
+            </div>
+    </div>
+
+                                        
+<div class="icon-callout-container">
+    <ul class="icon-callouts">
+
+                <li>
+<a href="https://cabins.dollywood.com/booking/results.cfm">                                <div class="icon" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DWC/Half-Spot/DWC-Guests-Outside-HS.jpg);"></div>
+                            <div class="text">
+CHECK RATES
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                </svg>
+                            </div>
+</a>                </li>
+                <li>
+<a href="https://www.dollywood.com/Deals/Special-Offers">                                <div class="icon" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DWC/Half-Spot/Cabins-Mountains.jpg);"></div>
+                            <div class="text">
+SPECIAL OFFERS
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                </svg>
+                            </div>
+</a>                </li>
+                <li>
+<a href="https://cabins.dollywood.com/packages">                                <div class="icon" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/Half-Spot/DWC/Cabins-Scenery.jpg);"></div>
+                            <div class="text">
+PACKAGES
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                </svg>
+                            </div>
+</a>                </li>
+
+    </ul>
+</div>                                                                            </div>
+                                </li>
+                                <li class="">
+                                            <a href="https://www.dollywood.com/Shows" class="linkdark">Dinner Shows</a>
+
+
+                                    <div class="submenu-container">
+
+
+    <div class="secondary-container">
+
+            <div class="column">
+
+        <ul class="secondary has-submenu">
+            <li>
+                                <a href="https://www.dollywood.com/Shows/DPStampede" class="linkdark">Dolly Parton's Stampede</a>
+
+    <ul class="tertiary">
+            <li>
+                
+<a href="https://dpstampede.com/pigeon-forge/show-schedule">Show Schedule</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Shows/Tickets">Tickets</a>
+            </li>
+    </ul>
+
+            </li>
+        </ul>
+                
+            </div>
+            <div class="column">
+
+        <ul class="secondary has-submenu">
+            <li>
+                                <a href="https://www.dollywood.com/Shows/Pirates-Voyage" class="linkdark">Pirates Voyage</a>
+
+    <ul class="tertiary">
+            <li>
+                
+<a href="https://piratesvoyage.com/pigeon-forge/show-schedule/">Show Schedule</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Shows/Tickets">Tickets</a>
+            </li>
+    </ul>
+
+            </li>
+        </ul>
+                
+            </div>
+    </div>
+
+                                        
+<div class="icon-callout-container">
+    <ul class="icon-callouts">
+
+                <li>
+<a href="https://www.dollywood.com/Shows/DPStampede">                                <div class="icon" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/Half-Spot/Shows/Dixie/SpecialOffers-HS2.jpg);"></div>
+                            <div class="text">
+Dolly Parton's Stampede
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                </svg>
+                            </div>
+</a>                </li>
+                <li>
+<a href="https://www.dollywood.com/Shows/Pirates-Voyage">                                <div class="icon" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/Shows/Pirates-Voyage/PiratesVoyage-HS2.jpg);"></div>
+                            <div class="text">
+Pirate's Voyage
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                </svg>
+                            </div>
+</a>                </li>
+
+    </ul>
+</div>                                                                            </div>
+                                </li>
+                                <li class="">
+<a href="https://www.dollywood.com/Tickets">Tickets &amp; Passes</a>
+
+                                    <div class="submenu-container">
+
+
+    <div class="secondary-container">
+
+            <div class="column">
+
+        <ul class="secondary has-submenu">
+            <li>
+                                <a href="https://www.dollywood.com/Tickets" class="linkdark">Tickets &amp; Passes</a>
+
+    <ul class="tertiary">
+            <li>
+                
+<a href="https://www.dollywood.com/Tickets">Daily Tickets</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Tickets/Season-Passes">Season Passes</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Deals/Special-Offers/Military-Discount">Military Discount</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Deals/Special-Offers/Lodging-Partner">Lodging Partners</a>
+            </li>
+    </ul>
+
+            </li>
+        </ul>
+                
+            </div>
+            <div class="column">
+
+        <ul class="secondary has-submenu">
+            <li>
+                                <a href="https://www.dollywood.com/Store/Add-Ons" class="linkdark">Add-Ons</a>
+
+    <ul class="tertiary">
+            <li>
+                
+<a href="https://www.dollywood.com/waterpark/Dining-Pass">All-New Dining Pass</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/themepark/Guest-Services/TimeSaver-Pass">TimeSaver</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/waterpark/Timesaver-H2O">TimeSaver H2O</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/waterpark/RetreatsandCanopies" target="_blank">Retreats &amp; Canopies</a>
+            </li>
+    </ul>
+
+            </li>
+        </ul>
+                
+            </div>
+            <div class="column">
+
+        <ul class="secondary has-submenu">
+            <li>
+                                <a href="https://www.dollywood.com/Groups" class="linkdark">Bring A Group</a>
+
+    <ul class="tertiary">
+            <li>
+                
+<a href="https://www.dollywood.com/Groups/General">Groups of 15+</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Groups/Education">Educational Groups</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Groups/Corporate">Corporate Groups</a>
+            </li>
+            <li>
+                
+<a href="https://www.dollywood.com/Groups/TT">Tour &amp; Travel Groups</a>
+            </li>
+    </ul>
+
+            </li>
+        </ul>
+                
+            </div>
+    </div>
+
+                                        
+<div class="icon-callout-container">
+    <ul class="icon-callouts">
+
+                <li>
+<a href="https://www.dollywood.com/Tickets/Season-Passes">                                <div class="icon" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DW/Rides-Attractions/DragonFlier/DF-halfspot.jpg);"></div>
+                            <div class="text">
+SEASON PASSES
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                </svg>
+                            </div>
+</a>                </li>
+                <li>
+<a href="https://www.dollywood.com/Deals/Special-Offers">                                <div class="icon" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/Half-Spot/DW/Rides-and-Attractions/Thunderhead.jpg);"></div>
+                            <div class="text">
+SPECIAL OFFERS
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                </svg>
+                            </div>
+</a>                </li>
+                <li>
+<a href="https://www.dollywood.com/Tickets">                                <div class="icon" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DW/Entertainment/DreamlandDriveIn/Dreamland-HS.jpg);"></div>
+                            <div class="text">
+TICKETS &amp; PRICING
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                </svg>
+                            </div>
+</a>                </li>
+
+    </ul>
+</div>                                                                            </div>
+                                </li>
+                </ul>
+            </nav>
+            <div class="search-nav">
+                <form id="search-form" action="https://www.dollywood.com/search" role="search" aria-label="main-search">
+                    <div class="search-container">
+                        <button aria-label="submit-search">
+                            <svg class="search-icon" version="1.1" viewBox="0 0 24.5 24.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g id="Symbols/DW-Toolkit" stroke-width="1" fill-rule="evenodd" stroke-linecap="round">
+                                    <g id="Icon/DW/Search">
+                                        <g id="icon/search" transform="translate(1.000000, 1.000000)">
+                                            <path d="M13.4562108,13.5185 C12.0748595,14.8839324 10.1758865,15.7271216 8.08023784,15.7271216 C3.8571027,15.7271216 0.433508108,12.303527 0.433508108,8.08039189 C0.433508108,3.85725676 3.8571027,0.433662162 8.08023784,0.433662162 C12.303373,0.433662162 15.7269676,3.85725676 15.7269676,8.08039189 C15.7269676,9.38471622 15.4008865,10.612527 14.8252378,11.6867973" id="Stroke-1" stroke-width="1.2"></path>
+                                            <path d="M13.5778108,13.3535081 L18.7298919,18.5055892" id="Stroke-3" stroke-width="1.2"></path>
+                                            <path d="M12.8322524,7.56358004 C12.818901,6.43898545 12.3834416,5.31747193 11.5263875,4.46093139 C10.6693335,3.60336383 9.54781996,3.16790437 8.42271185,3.15506653" id="Stroke-5"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </button>
+                        <input type="text" placeholder="Search..." name="q" tabindex="-1" id="search-text" aria-label="site-search">
+                        <svg class="close-search" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24.5 24.5" xml:space="preserve">
+                        <g>
+                        <path d="M12.3,10.4l10-10c0.5-0.5,1.4-0.5,1.9,0s0.5,1.4,0,1.9l-10,10l10,10c0.5,0.5,0.5,1.4,0,1.9s-1.4,0.5-1.9,0 l-10-10l-10,10c-0.5,0.5-1.4,0.5-1.9,0s-0.5-1.4,0-1.9l10-10l-10-10c-0.5-0.5-0.5-1.4,0-1.9s1.4-0.5,1.9,0L12.3,10.4z"></path>
+                            </g>
+                        </svg>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+        <div class="header-backdrop"></div>
+
+<header class="mobile-header" aria-label="mobile-header">
+
+    
+    <div class="header-group">
+
+        <button class="hamburger hamburger--squeeze" tabindex="1" type="button" aria-label="Menu" aria-controls="navigation">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+<a href="https://www.dollywood.com/Contact-Us" class="contact"><span class="fas fa-phone"></span></a>
+            <a href="https://www.dollywood.com/" class="site-logo" tabindex="3" style="background-image: url(/-/media/Project/HFE/DW/Samples/Header/Top-Bar/dollywood-logo-color.png);"></a>
+        
+
+        <a id="toggle-search-mobile" class="search" data-href="/search" data-placeholder="Search...">
+            <span class="fas fa-search"></span>
+        </a>
+
+
+<a href="https://www.dollywood.com/Store/shoppingcart" class="cart"><span class="fas fa-shopping-cart cxa-headerminicart-component" data-cxa-component-class="HeaderMinicart" data-cxa-component-initialized="true" data-cxa-component-type="component">
+    <!-- ko if: totalNumberOfProducts() > 0 --><!-- /ko -->
+</span>
+</a>
+    </div>
+    <div class="search-nav-mobile">
+        <form id="mobile-search-form" action="https://www.dollywood.com/Plan-Your-Visit" role="search" aria-label="mobile-search">
+            <div class="search-container">
+                <button aria-label="submit-search">
+                    <svg class="search-icon" version="1.1" viewBox="0 0 24.5 24.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Symbols/DW-Toolkit" stroke-width="1" fill-rule="evenodd" stroke-linecap="round">
+                            <g id="Icon/DW/Search">
+                                <g id="icon/search" transform="translate(1.000000, 1.000000)">
+                                    <path d="M13.4562108,13.5185 C12.0748595,14.8839324 10.1758865,15.7271216 8.08023784,15.7271216 C3.8571027,15.7271216 0.433508108,12.303527 0.433508108,8.08039189 C0.433508108,3.85725676 3.8571027,0.433662162 8.08023784,0.433662162 C12.303373,0.433662162 15.7269676,3.85725676 15.7269676,8.08039189 C15.7269676,9.38471622 15.4008865,10.612527 14.8252378,11.6867973" id="Stroke-1" stroke-width="1.2"></path>
+                                    <path d="M13.5778108,13.3535081 L18.7298919,18.5055892" id="Stroke-3" stroke-width="1.2"></path>
+                                    <path d="M12.8322524,7.56358004 C12.818901,6.43898545 12.3834416,5.31747193 11.5263875,4.46093139 C10.6693335,3.60336383 9.54781996,3.16790437 8.42271185,3.15506653" id="Stroke-5"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </button>
+                <input type="text" placeholder="Search..." name="q" tabindex="-1" id="search-text-mobile" aria-label="site-search">
+                <svg class="close-search" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24.5 24.5" xml:space="preserve">
+                    <g>
+                        <path d="M12.3,10.4l10-10c0.5-0.5,1.4-0.5,1.9,0s0.5,1.4,0,1.9l-10,10l10,10c0.5,0.5,0.5,1.4,0,1.9s-1.4,0.5-1.9,0 l-10-10l-10,10c-0.5,0.5-1.4,0.5-1.9,0s-0.5-1.4,0-1.9l10-10l-10-10c-0.5-0.5-0.5-1.4,0-1.9s1.4-0.5,1.9,0L12.3,10.4z"></path>
+                    </g>
+                </svg>
+            </div>
+        </form>
+    </div>
+
+
+
+    <nav class="mobile-navigation" aria-label="mobile-navigation" style="padding-top: 0px;">
+
+
+
+        <div class="primary-placement">
+                <ul class="primary">
+                        <li class="has-submenu" data-href="/Plan-Your-Visit">
+                            <!-- Set link in data-href of primary item that will link to a page -->
+                            
+
+<a href="https://www.dollywood.com/Plan-Your-Visit">Plan Your Visit</a>
+
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                        </svg>
+                            
+
+    <ul class="secondary">
+
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+             </svg>
+        <li class="has-submenu" data-href="/Plan-Your-Visit">
+
+                    <span class="menu-title">Planning</span>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+            </svg>
+    <ul class="tertiary">
+            <li>
+<a href="https://www.dollywood.com/Plan-Your-Visit/Itinerary-Planner">                            <span class="menu-title">Trip Planner</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Plan-Your-Visit/FAQs">                            <span class="menu-title">FAQs</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Plan-Your-Visit/Accessibility">                            <span class="menu-title">Park Accessibility</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Plan-Your-Visit/Guest-Services">                            <span class="menu-title">Park Guest Services</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Plan-Your-Visit/Gifts">                            <span class="menu-title">Gifts</span>
+</a>            </li>
+    </ul>
+
+        </li>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+             </svg>
+        <li class="has-submenu" data-href="/Resort/Resort-Tickets">
+
+                    <span class="menu-title">Stay &amp; Play</span>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+            </svg>
+    <ul class="tertiary">
+            <li>
+<a href="https://www.dollywood.com/Resort/Resort-Tickets">                            <span class="menu-title">Resort Packages</span>
+</a>            </li>
+            <li>
+<a href="https://dollywood.reservedirect.com/">                            <span class="menu-title">Off-site Hotel Packages</span>
+</a>            </li>
+    </ul>
+
+        </li>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+             </svg>
+        <li class="has-submenu" data-href="https://insiders.dollywood.com/">
+
+                    <span class="menu-title">Insider Information</span>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+            </svg>
+    <ul class="tertiary">
+            <li>
+<a href="https://blog.dollywood.com/">                            <span class="menu-title">Our Blog</span>
+</a>            </li>
+            <li>
+<a href="https://insiders.dollywood.com/">                            <span class="menu-title">Dollywood Insiders</span>
+</a>            </li>
+    </ul>
+
+        </li>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+             </svg>
+        <li class="has-submenu" data-href="/Groups">
+
+                    <span class="menu-title">Bring A Group</span>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+            </svg>
+    <ul class="tertiary">
+            <li>
+<a href="https://www.dollywood.com/Groups/General">                            <span class="menu-title">Groups of 15+</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Groups/Education">                            <span class="menu-title">Educational Groups</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Groups/Corporate">                            <span class="menu-title">Corporate Groups</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Groups/TT">                            <span class="menu-title">Tour &amp; Travel Groups</span>
+</a>            </li>
+    </ul>
+
+        </li>
+    </ul>
+
+                            
+<ul class="icon-callouts">
+
+            <li class="pending">
+<a href="https://www.dollywood.com/Tickets/Season-Passes">                            <div class="icon">
+                                <div style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DW/Rides-Attractions/DragonFlier/DF-halfspot.jpg);"></div>
+                            </div>
+                        <div class="text">
+SEASON PASSES                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                    </svg>
+                        </div>
+</a>            </li>
+            <li class="pending">
+<a href="https://www.dollywood.com/Deals/Special-Offers">                            <div class="icon">
+                                <div style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DW/Rides-Attractions/Wild-Eagle/TITH-Half-Spot.jpg);"></div>
+                            </div>
+                        <div class="text">
+SPECIAL OFFERS                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                    </svg>
+                        </div>
+</a>            </li>
+            <li class="pending">
+<a href="https://www.dollywood.com/Tickets">                            <div class="icon">
+                                <div style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DW/Entertainment/Live-at-the-Back-Porch/LiveattheBackPorch-HS.jpg);"></div>
+                            </div>
+                        <div class="text">
+TICKETS &amp; PRICING                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                    </svg>
+                        </div>
+</a>            </li>
+
+</ul>                            
+                        </li>
+                        <li class="has-submenu" data-href="/themepark">
+                            <!-- Set link in data-href of primary item that will link to a page -->
+                            
+
+<a href="https://www.dollywood.com/themepark">Theme Park</a>
+
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                        </svg>
+                            
+
+    <ul class="secondary">
+
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+             </svg>
+        <li class="has-submenu" data-href="/themepark">
+
+                    <span class="menu-title">Explore The Park</span>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+            </svg>
+    <ul class="tertiary">
+            <li>
+<a href="https://www.dollywood.com/themepark/Festivals">                            <span class="menu-title">Festivals &amp; Events</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/themepark/Rides">                            <span class="menu-title">Rides &amp; Attractions</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/themepark/Entertainment">                            <span class="menu-title">Shows &amp; Entertainment</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/themepark/Dining">                            <span class="menu-title">Dining</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/themepark/Shops">                            <span class="menu-title">Shops</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/themepark/Crafts">                            <span class="menu-title">Crafts</span>
+</a>            </li>
+    </ul>
+
+        </li>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+             </svg>
+        <li class="has-submenu" data-href="/themepark/Guest-Services">
+
+                    <span class="menu-title">Guest Information</span>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+            </svg>
+    <ul class="tertiary">
+            <li>
+<a href="https://www.dollywood.com/Daily-Schedule">                            <span class="menu-title">Daily Schedule</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Calendar">                            <span class="menu-title">Hours &amp; Calendar</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/themepark/map">                            <span class="menu-title">Park Map</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/themepark/Guest-Services/FAQs">                            <span class="menu-title">FAQs</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/themepark/Guest-Services">                            <span class="menu-title">Guest Services</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/themepark/Guest-Services/Accessibility">                            <span class="menu-title">Accessibility</span>
+</a>            </li>
+    </ul>
+
+        </li>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+             </svg>
+        <li class="has-submenu" data-href="/Store/Add-Ons">
+
+                    <span class="menu-title">Enhance Your Experience</span>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+            </svg>
+    <ul class="tertiary">
+            <li>
+<a href="https://www.dollywood.com/Store/Add-Ons">                            <span class="menu-title">All Add-Ons</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/themepark/Guest-Services/TimeSaver-Pass">                            <span class="menu-title">TimeSaver Passes</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/themepark/Special-Experiences">                            <span class="menu-title">Special Experiences</span>
+</a>            </li>
+    </ul>
+
+        </li>
+    </ul>
+
+                            
+<ul class="icon-callouts">
+
+            <li class="pending">
+<a href="https://www.dollywood.com/Tickets/Season-Passes">                            <div class="icon">
+                                <div style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DW/Rides-Attractions/DragonFlier/DF-halfspot.jpg);"></div>
+                            </div>
+                        <div class="text">
+SEASON PASSES                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                    </svg>
+                        </div>
+</a>            </li>
+            <li class="pending">
+<a href="https://www.dollywood.com/Deals/Special-Offers">                            <div class="icon">
+                                <div style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DW/Rides-Attractions/DW-Express/insiders-tn.jpg);"></div>
+                            </div>
+                        <div class="text">
+SPECIAL OFFERS                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                    </svg>
+                        </div>
+</a>            </li>
+            <li class="pending">
+<a href="https://www.dollywood.com/Tickets">                            <div class="icon">
+                                <div style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DW/Entertainment/Live-at-the-Back-Porch/LiveattheBackPorch-HS.jpg);"></div>
+                            </div>
+                        <div class="text">
+TICKETS &amp; PRICING                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                    </svg>
+                        </div>
+</a>            </li>
+
+</ul>                            
+                        </li>
+                        <li class="has-submenu" data-href="/waterpark">
+                            <!-- Set link in data-href of primary item that will link to a page -->
+                            
+
+<a href="https://www.dollywood.com/waterpark">Water Park</a>
+
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                        </svg>
+                            
+
+    <ul class="secondary">
+
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+             </svg>
+        <li class="has-submenu" data-href="/waterpark">
+
+                    <span class="menu-title">Explore the Park</span>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+            </svg>
+    <ul class="tertiary">
+            <li>
+<a href="https://www.dollywood.com/waterpark/Rides">                            <span class="menu-title">Slides &amp; Attractions</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/waterpark/Restaurants">                            <span class="menu-title">Dining</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/waterpark/Shops">                            <span class="menu-title">Shops</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/waterpark/Events">                            <span class="menu-title">Events</span>
+</a>            </li>
+    </ul>
+
+        </li>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+             </svg>
+        <li class="has-submenu" data-href="/waterpark/Guest-Services">
+
+                    <span class="menu-title">Guest Information</span>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+            </svg>
+    <ul class="tertiary">
+            <li>
+<a href="https://www.dollywood.com/Calendar">                            <span class="menu-title">Hours &amp; Calendar</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/waterpark/map">                            <span class="menu-title">Park Map</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/waterpark/Guest-Services/FAQs">                            <span class="menu-title">FAQs</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/waterpark/Guest-Services">                            <span class="menu-title">Guest Services</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/waterpark/Guest-Services/Accessibility">                            <span class="menu-title">Accessibility</span>
+</a>            </li>
+    </ul>
+
+        </li>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+             </svg>
+        <li class="has-submenu" data-href="/Store/Add-Ons">
+
+                    <span class="menu-title">Enhance Your Experience</span>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+            </svg>
+    <ul class="tertiary">
+            <li>
+<a href="https://www.dollywood.com/Store/Add-Ons">                            <span class="menu-title">All Add-Ons</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/waterpark/Dining-Pass">                            <span class="menu-title">All-New Dining Pass</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/waterpark/Timesaver-H2O">                            <span class="menu-title">TimeSaver H2O</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/waterpark/RetreatsandCanopies">                            <span class="menu-title">Reserve Before You Go</span>
+</a>            </li>
+    </ul>
+
+        </li>
+    </ul>
+
+                            
+<ul class="icon-callouts">
+
+            <li class="pending">
+<a href="https://www.dollywood.com/Tickets/Season-Passes">                            <div class="icon">
+                                <div style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DSC/Slides/Big-Bear-Plunge/BBP-HS.jpg);"></div>
+                            </div>
+                        <div class="text">
+SEASON PASSES                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                    </svg>
+                        </div>
+</a>            </li>
+            <li class="pending">
+<a href="https://www.dollywood.com/Deals/Special-Offers">                            <div class="icon">
+                                <div style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DSC/Slides/TailSpinRacer/TSR-hs.jpg);"></div>
+                            </div>
+                        <div class="text">
+SPECIAL OFFERS                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                    </svg>
+                        </div>
+</a>            </li>
+            <li class="pending">
+<a href="https://www.dollywood.com/Tickets">                            <div class="icon">
+                                <div style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DSC/Slides/Downbound-Float-Trip/hs-ride.jpg);"></div>
+                            </div>
+                        <div class="text">
+TICKETS &amp; PRICING                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                    </svg>
+                        </div>
+</a>            </li>
+
+</ul>                            
+                        </li>
+                        <li class="has-submenu" data-href="/Resort">
+                            <!-- Set link in data-href of primary item that will link to a page -->
+                            
+
+<a href="https://www.dollywood.com/Resort">Resort</a>
+
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                        </svg>
+                            
+
+    <ul class="secondary">
+
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+             </svg>
+        <li class="has-submenu" data-href="/Resort">
+
+                    <span class="menu-title">Explore the Resort</span>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+            </svg>
+    <ul class="tertiary">
+            <li>
+<a href="https://www.dollywood.com/Resort/About-the-Resort">                            <span class="menu-title">About The Resort &amp; Amenities</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Resort/DMR-Spa">                            <span class="menu-title">Spa</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Resort/Pools">                            <span class="menu-title">Pools</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Resort/Dining">                            <span class="menu-title">Dining</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Resort/Shopping">                            <span class="menu-title">Shopping</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Resort/Accommodations">                            <span class="menu-title">Room Types</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Resort/Kids-Activities">                            <span class="menu-title">Kids' Activities</span>
+</a>            </li>
+    </ul>
+
+        </li>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+             </svg>
+        <li class="has-submenu" data-href="/Resort/About-the-Resort">
+
+                    <span class="menu-title">Guest Information</span>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+            </svg>
+    <ul class="tertiary">
+            <li>
+<a href="https://www.dollywood.com/Resort/About-the-Resort/Included-With-Your-Resort-Stay">                            <span class="menu-title">Included With Your Stay</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Resort/DMR-Events">                            <span class="menu-title">Resort Events</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Resort/Resort-Tickets">                            <span class="menu-title">Exclusive Park Tickets</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Resort/Meetings">                            <span class="menu-title">Meetings &amp; Events</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Resort/Weddings">                            <span class="menu-title">Weddings</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Resort/About-the-Resort/PassholderDiscounts">                            <span class="menu-title">Season Passholders</span>
+</a>            </li>
+    </ul>
+
+        </li>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+             </svg>
+        <li class="has-submenu" data-href="https://be.synxis.com/?hotel=69958&amp;chain=10069">
+
+                    <span class="menu-title">Book Today</span>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+            </svg>
+    <ul class="tertiary">
+            <li>
+<a href="https://be.synxis.com/?hotel=69958&amp;chain=10069">                            <span class="menu-title">Check Rates</span>
+</a>            </li>
+    </ul>
+
+        </li>
+    </ul>
+
+                            
+<ul class="icon-callouts">
+
+            <li class="pending">
+<a href="https://be.synxis.com/?hotel=69958&amp;chain=10069">                            <div class="icon">
+                                <div style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DMR/Guests/DMR_SoLongSummer_HalfSpot.jpg);"></div>
+                            </div>
+                        <div class="text">
+CHECK RATES                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                    </svg>
+                        </div>
+</a>            </li>
+            <li class="pending">
+<a href="https://www.dollywood.com/Deals/Special-Offers">                            <div class="icon">
+                                <div style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DMR/Guests/DMR-Summer-Planner-thumb.jpg);"></div>
+                            </div>
+                        <div class="text">
+SPECIAL OFFERS                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                    </svg>
+                        </div>
+</a>            </li>
+            <li class="pending">
+<a href="https://www.dollywood.com/Resort/Resort-Tickets">                            <div class="icon">
+                                <div style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DMR/Camp-DW/camp-dw-thumb.jpg);"></div>
+                            </div>
+                        <div class="text">
+PACKAGES                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                    </svg>
+                        </div>
+</a>            </li>
+
+</ul>                            
+                        </li>
+                        <li class="has-submenu" data-href="/Cabins">
+                            <!-- Set link in data-href of primary item that will link to a page -->
+                            
+
+<a href="https://www.dollywood.com/Cabins">Cabins</a>
+
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                        </svg>
+                            
+
+    <ul class="secondary">
+
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+             </svg>
+        <li class="has-submenu" data-href="/Cabins">
+
+                    <span class="menu-title">Explore the Cabins</span>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+            </svg>
+    <ul class="tertiary">
+            <li>
+<a href="https://cabins.dollywood.com/booking/results.cfm">                            <span class="menu-title">Cabin Search</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/PigeonForge/Cabin-Amenities">                            <span class="menu-title">Amenities</span>
+</a>            </li>
+    </ul>
+
+        </li>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+             </svg>
+        <li class="has-submenu" data-href="/PigeonForge/Cabin-Amenities">
+
+                    <span class="menu-title">Guest Information</span>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+            </svg>
+    <ul class="tertiary">
+            <li>
+<a href="https://www.dollywood.com/PigeonForge/Included-With-Your-Cabin-Stay">                            <span class="menu-title">Included With Your Cabin Stay</span>
+</a>            </li>
+            <li>
+<a href="https://cabins.dollywood.com/packages">                            <span class="menu-title">Cabin Packages</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/PigeonForge/Cabin-Tickets">                            <span class="menu-title">Exclusive Park Tickets</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/PigeonForge/Reservation-Policy">                            <span class="menu-title">Cabin Policies</span>
+</a>            </li>
+    </ul>
+
+        </li>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+             </svg>
+        <li class="has-submenu" data-href="https://cabins.dollywood.com/booking/results.cfm">
+
+                    <span class="menu-title">Book Today</span>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+            </svg>
+    <ul class="tertiary">
+            <li>
+<a href="https://cabins.dollywood.com/booking/results.cfm">                            <span class="menu-title">Check Rates</span>
+</a>            </li>
+    </ul>
+
+        </li>
+    </ul>
+
+                            
+<ul class="icon-callouts">
+
+            <li class="pending">
+<a href="https://cabins.dollywood.com/booking/results.cfm">                            <div class="icon">
+                                <div style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DWC/Half-Spot/DWC-Guests-Outside-HS.jpg);"></div>
+                            </div>
+                        <div class="text">
+CHECK RATES                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                    </svg>
+                        </div>
+</a>            </li>
+            <li class="pending">
+<a href="https://www.dollywood.com/Deals/Special-Offers">                            <div class="icon">
+                                <div style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DWC/Half-Spot/Cabins-Mountains.jpg);"></div>
+                            </div>
+                        <div class="text">
+SPECIAL OFFERS                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                    </svg>
+                        </div>
+</a>            </li>
+            <li class="pending">
+<a href="https://cabins.dollywood.com/packages">                            <div class="icon">
+                                <div style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/Half-Spot/DWC/Cabins-Scenery.jpg);"></div>
+                            </div>
+                        <div class="text">
+PACKAGES                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                    </svg>
+                        </div>
+</a>            </li>
+
+</ul>                            
+                        </li>
+                        <li class="has-submenu" data-href="/Shows">
+                            <!-- Set link in data-href of primary item that will link to a page -->
+                            
+
+                                    <a href="https://www.dollywood.com/Shows" class="linkdark">Dinner Shows</a>
+
+
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                        </svg>
+                            
+
+    <ul class="secondary">
+
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+             </svg>
+        <li class="has-submenu" data-href="/Shows/DPStampede">
+
+                    <span class="menu-title">Dolly Parton's Stampede</span>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+            </svg>
+    <ul class="tertiary">
+            <li>
+<a href="https://dpstampede.com/pigeon-forge/show-schedule">                            <span class="menu-title">Show Schedule</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Shows/Tickets">                            <span class="menu-title">Tickets</span>
+</a>            </li>
+    </ul>
+
+        </li>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+             </svg>
+        <li class="has-submenu" data-href="/Shows/Pirates-Voyage">
+
+                    <span class="menu-title">Pirates Voyage</span>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+            </svg>
+    <ul class="tertiary">
+            <li>
+<a href="https://piratesvoyage.com/pigeon-forge/show-schedule/">                            <span class="menu-title">Show Schedule</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Shows/Tickets">                            <span class="menu-title">Tickets</span>
+</a>            </li>
+    </ul>
+
+        </li>
+    </ul>
+
+                            
+<ul class="icon-callouts">
+
+            <li class="pending">
+<a href="https://www.dollywood.com/Shows/DPStampede">                            <div class="icon">
+                                <div style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/Half-Spot/Shows/Dixie/SpecialOffers-HS2.jpg);"></div>
+                            </div>
+                        <div class="text">
+Dolly Parton's Stampede                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                    </svg>
+                        </div>
+</a>            </li>
+            <li class="pending">
+<a href="https://www.dollywood.com/Shows/Pirates-Voyage">                            <div class="icon">
+                                <div style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/Shows/Pirates-Voyage/PiratesVoyage-HS2.jpg);"></div>
+                            </div>
+                        <div class="text">
+Pirate's Voyage                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                    </svg>
+                        </div>
+</a>            </li>
+
+</ul>                            
+                        </li>
+                        <li class="has-submenu" data-href="/Tickets">
+                            <!-- Set link in data-href of primary item that will link to a page -->
+                            
+
+<a href="https://www.dollywood.com/Tickets">Tickets &amp; Passes</a>
+
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                        </svg>
+                            
+
+    <ul class="secondary">
+
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+             </svg>
+        <li class="has-submenu" data-href="/Tickets">
+
+                    <span class="menu-title">Tickets &amp; Passes</span>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+            </svg>
+    <ul class="tertiary">
+            <li>
+<a href="https://www.dollywood.com/Tickets">                            <span class="menu-title">Daily Tickets</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Tickets/Season-Passes">                            <span class="menu-title">Season Passes</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Deals/Special-Offers/Military-Discount">                            <span class="menu-title">Military Discount</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Deals/Special-Offers/Lodging-Partner">                            <span class="menu-title">Lodging Partners</span>
+</a>            </li>
+    </ul>
+
+        </li>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+             </svg>
+        <li class="has-submenu" data-href="/Store/Add-Ons">
+
+                    <span class="menu-title">Add-Ons</span>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+            </svg>
+    <ul class="tertiary">
+            <li>
+<a href="https://www.dollywood.com/waterpark/Dining-Pass">                            <span class="menu-title">All-New Dining Pass</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/themepark/Guest-Services/TimeSaver-Pass">                            <span class="menu-title">TimeSaver</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/waterpark/Timesaver-H2O">                            <span class="menu-title">TimeSaver H2O</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/waterpark/RetreatsandCanopies" target="_blank">                            <span class="menu-title">Retreats &amp; Canopies</span>
+</a>            </li>
+    </ul>
+
+        </li>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+             </svg>
+        <li class="has-submenu" data-href="/Groups">
+
+                    <span class="menu-title">Bring A Group</span>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+            </svg>
+    <ul class="tertiary">
+            <li>
+<a href="https://www.dollywood.com/Groups/General">                            <span class="menu-title">Groups of 15+</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Groups/Education">                            <span class="menu-title">Educational Groups</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Groups/Corporate">                            <span class="menu-title">Corporate Groups</span>
+</a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Groups/TT">                            <span class="menu-title">Tour &amp; Travel Groups</span>
+</a>            </li>
+    </ul>
+
+        </li>
+    </ul>
+
+                            
+<ul class="icon-callouts">
+
+            <li class="pending">
+<a href="https://www.dollywood.com/Tickets/Season-Passes">                            <div class="icon">
+                                <div style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DW/Rides-Attractions/DragonFlier/DF-halfspot.jpg);"></div>
+                            </div>
+                        <div class="text">
+SEASON PASSES                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                    </svg>
+                        </div>
+</a>            </li>
+            <li class="pending">
+<a href="https://www.dollywood.com/Deals/Special-Offers">                            <div class="icon">
+                                <div style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/Half-Spot/DW/Rides-and-Attractions/Thunderhead.jpg);"></div>
+                            </div>
+                        <div class="text">
+SPECIAL OFFERS                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                    </svg>
+                        </div>
+</a>            </li>
+            <li class="pending">
+<a href="https://www.dollywood.com/Tickets">                            <div class="icon">
+                                <div style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DW/Entertainment/DreamlandDriveIn/Dreamland-HS.jpg);"></div>
+                            </div>
+                        <div class="text">
+TICKETS &amp; PRICING                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                            <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                                    </svg>
+                        </div>
+</a>            </li>
+
+</ul>                            
+                        </li>
+                </ul>
+            
+        <ul class="utility-nav pending">
+            
+
+    <li class="user-login">
+        <span class="fas fa-user"></span>
+
+<a href="https://www.dollywood.com/login?returnUrl=/Plan-Your-Visit&amp;active=signin" class="topBarLogin">Sign In</a><a href="https://www.dollywood.com/login?returnUrl=/Plan-Your-Visit&amp;active=registration" class="topBarRegister">Register</a>    </li>
+
+
+                    <li class="maps">
+<a href="https://www.dollywood.com/Directions/How-to-get-to-Dollywood"><span class="fas fa-map-marker-alt"></span>                                            <span>
+                                                Maps
+                                            </span>
+</a>                    </li>
+                    <li class="calendar">
+<a href="https://www.dollywood.com/Calendar"><span class="fas fa-clock"></span>                                            <span>
+                                                Hours &amp; Calendar
+                                            </span>
+</a>                    </li>
+        </ul>
+    <div class="contact">
+
+					<ul>
+						<li>
+							<a href="https://www.dollywood.com/">
+								<i class="la la-phone-square"></i>
+								Call 1-800-365-5996
+							</a>
+						</li>
+					</ul>
+				    </div>
+
+        </div>
+
+
+        <div class="secondary-placement" style="padding-top: 0px;">
+            <ul class="secondary">
+                <li class="previous-section">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                    <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                    </svg>
+                    <span>Menu</span>
+                </li>
+                <li class="current-section"></li>
+            </ul>
+        </div>
+        <div class="tertiary-placement" style="padding-top: 0px;">
+            <ul class="tertiary">
+                <li class="previous-section">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                    <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path>
+                    </svg>
+                    <span></span>
+                </li>
+                <li class="current-section"></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="main-content"></div>
+</header>
+
+
+
+
+
+
+
+        <div role="main">
+            
+
+
+<div class="modal fade modalPopupClass" id="customModalPopup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document" style="max-width:95%;">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Plan Your Visit</h5>
+                <a class="fancybox-close" data-dismiss="modal" aria-label="Close">
+                </a>
+            </div>
+
+            <div class="modal-body">
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            
+
+        <div class="hero swiper-container static">
+            <div class="swiper-wrapper">
+                    <div class="swiper-slide ">
+<img src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/Dolly-Quote-Mobile.jpg" class="hero-image mobile" alt="">                        <img src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/Dolly-Quote-Desktop.jpg" class="hero-image desktop" alt="">                        <div class="caption-container offset-md-1">
+                            <div class="caption">
+                                                                                                                                
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+
+
+        </div>
+
+            
+ 
+
+
+            
+    <div class="tickets-and-passes">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="page-title-block">
+                                                    <h5 class="subtitle">Know Before You Go</h5>
+                                                    <h1>Plan Your Visit</h1>
+                                                    <div class="row justify-content-md-center">
+                                <div class="col-md-6">
+                                    <p>The Great Smoky Mountains can make you feel right at home in the same way it calls Dolly Parton home. With so much to do and so much to see, it is no wonder why Dollywood Parks &amp; Resorts is truly someplace special.</p>
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="promo-panel container">
+        <div class="flex" style="background-color:#4374A6; flex-direction: row-reverse;">
+                <div class="photo" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DMR/Guests/dmr-guests-map-mobile.jpg);"></div>
+            <div class="details">
+                    <h5 class="subtitle">Getting To Dollywood</h5>
+
+                    <h2 class="title">Wait, How Close Am I?</h2>
+
+                    <div class="description"><p>Dollywood is conveniently located 35 miles southeast of Knoxville, Tennessee in scenic Pigeon Forge at the gateway of the Great Smoky Mountains National Park. Make yourself right at home, even before you arrive!</p></div>
+
+<a href="https://www.google.com/maps?q=2700+Dollywood+Parks+Blvd,+Pigeon+Forge,+TN+37863&amp;hl=en&amp;sll=37.0625,-95.677068&amp;sspn=47.885545,107.138672&amp;vpsrc=0&amp;hnear=2700+Dollywood+Parks+Blvd,+Pigeon+Forge,+TN+37863&amp;t=h&amp;z=16" class="cta">Map It On Google</a>            </div>
+        </div>
+    </div>
+
+
+
+<div class="component container">
+    <div class="component-content">
+
+
+    <div class="component rich-text col-xs-12">
+        <div class="component-content">
+<br>
+<br>
+<br>
+<div style="text-align: center;">
+<h2>The Dollywood Experience</h2>
+<p>More than 50 rides and attractions, world-class entertainment, one-of-a-kind dining and a new reason to visit every season. Use our <a href="https://www.dollywood.com/Plan-Your-Visit/Itinerary-Planner">Trip Planner</a>&nbsp;to plan your visit before you arrive! Just hit the star symbol to add items to your itinerary.</p>
+</div>        </div>
+    </div>
+    </div>
+</div>
+<input type="hidden" id="apiUrl" value="https://www.dollywood.com/api/cxa/AttractionSearchContent/GetAttractionCards?did={EDFB6ECD-BB9F-4428-9179-5F43DA3D6D99}&amp;cid={ED3FE67F-A02A-4315-B3BC-B86C0A612453}&amp;showoverlay=False&amp;hfbl=False&amp;hfbt=False&amp;hsbf=False&amp;hsba=False&amp;hsbl=False&amp;sbsd=True">
+<input type="hidden" id="attractionAddUrl" value="/api/cxa/ItineraryPlanner/AddRemoveFromItinerary">
+<div class="attraction-filter-grid container"><div introcontent="[object Object]" class="intro"><h5 class="subtitle"></h5><h2></h2><div class="body"><p></p></div></div><div class="tab-category-carousel"><div class="filters-list swiper-container swiper-container-horizontal"><ul categorylist="[object Object],[object Object],[object Object]" class="categories swiper-wrapper"><li class="active swiper-slide swiper-slide-active" style="width: 560px; margin-right: 20px;"><a class="category-type">All</a></li><li class="swiper-slide swiper-slide-next" style="width: 560px; margin-right: 20px;"><a class="category-type">Rides</a></li><li class="swiper-slide" style="width: 560px; margin-right: 20px;"><a class="category-type">Festivals</a></li><li class="swiper-slide" style="width: 560px; margin-right: 20px;"><a class="category-type">Shows</a></li></ul><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div><div class="swiper-button-prev swiper-button-disabled" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 15.5 28.7" xml:space="preserve"><path d="M13.7,28.3l-13-13.1c-0.9-0.9,0.5-2.4,1.4-1.4l13,13.1C16,27.8,14.6,29.2,13.7,28.3z M15.1,2.1L2,15.2
+	c-0.9,0.9-2.3-0.5-1.4-1.4l13-13.2C14.6-0.3,16,1.1,15.1,2.1z"></path></svg></div><div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 15.6 28.7" xml:space="preserve" class="icon-arrow-right-thin"><path d="M1.7,0.3l13.5,13.3c0.9,0.9-0.5,2.4-1.4,1.4L0.3,1.7C-0.6,0.8,0.8-0.6,1.7,0.3z M0.3,26.9 l13.5-13.3c0.9-0.9,2.4,0.5,1.4,1.4L1.7,28.4C0.8,29.3-0.6,27.9,0.3,26.9z"></path></svg></div></div><div class="sort-and-filter"><div class="filters-dropdown"><div class="dropdown-toggle">
+		Filter by
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 14 8" xml:space="preserve"><path d="M7,5.6l5.3-5.3c0.4-0.4,1-0.4,1.4,0c0.4,0.4,0.4,1,0,1.4l-6,6c-0.4,0.4-1,0.4-1.4,0l-6-6c-0.4-0.4-0.4-1,0-1.4 s1-0.4,1.4,0L7,5.6z"></path></svg></div><div class="dropdown-options"><div class="filter-facet"><div class="filter-label">Type</div><div class="filter-options"><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Thrill</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Family</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>High Thrill</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Thrill</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Family</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Thrill</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Family</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Festival</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Animals</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Family</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>50s 60s</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Country</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Bluegrass</span></label></div></div></div></div><div class="filter-facet"><div class="filter-label">Location</div><div class="filter-options"><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Timber Canyon</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Wildwood Grove</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Owens Farm</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Wilderness Pass</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Jukebox Junction</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Throughout the Park</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Craftsman's Valley</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Valley Theater</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Outside of Dolly's Closet</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Back Porch Theater</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Showstreet</span></label></div></div><div class="filter-option"><div class="custom-hfe-cb"><input type="checkbox"><label><span>Pines Theater</span></label></div></div></div></div><button class="close-dropdown"></button></div></div><div class="sort-dropdown"><div class="dropdown-toggle">
+		Sort by
+		
+		<span class="current-sort"> </span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 14 8" xml:space="preserve"><path d="M7,5.6l5.3-5.3c0.4-0.4,1-0.4,1.4,0c0.4,0.4,0.4,1,0,1.4l-6,6c-0.4,0.4-1,0.4-1.4,0l-6-6c-0.4-0.4-0.4-1,0-1.4 s1-0.4,1.4,0L7,5.6z"></path></svg></div><div class="dropdown-options"><ul><li class="">Featured</li><li class="">Alphabetical</li><li class="">Location</li></ul></div></div></div><div class="active-filters"><div class="clear-all">
+		
+	</div></div><div><div class="attraction-grid"><div class="attraction" style="background-image: url(&quot;/-/media/Project/HFE/DW/Water-Park/Slides/Swift-Water-Run/SwiftWater-Run-Mobile-Hero--Attraction-Search.jpg&quot;);"><div class="gradient-top"></div><div class="gradient-bottom"></div><div class="content"><div class="category"><span><!---->
+							Rides
+							<!----></span></div><div class="save-event"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 49.94 49.94" xml:space="preserve" class="icon-star"><path d="M48.856,22.731c0.983-0.958,1.33-2.364,0.906-3.671c-0.425-1.307-1.532-2.24-2.892-2.438l-12.092-1.757  c-0.515-0.075-0.96-0.398-1.19-0.865L28.182,3.043c-0.607-1.231-1.839-1.996-3.212-1.996c-1.372,0-2.604,0.765-3.211,1.996  L16.352,14c-0.23,0.467-0.676,0.79-1.191,0.865L3.069,16.623C1.71,16.82,0.603,17.753,0.178,19.06  c-0.424,1.307-0.077,2.713,0.906,3.671l8.749,8.528c0.373,0.364,0.544,0.888,0.456,1.4L8.224,44.702  c-0.232,1.353,0.313,2.694,1.424,3.502c1.11,0.809,2.555,0.914,3.772,0.273l10.814-5.686c0.461-0.242,1.011-0.242,1.472,0  l10.815,5.686c0.528,0.278,1.1,0.415,1.669,0.415c0.739,0,1.475-0.231,2.103-0.688c1.111-0.808,1.656-2.149,1.424-3.502  L39.651,32.66c-0.088-0.513,0.083-1.036,0.456-1.4L48.856,22.731z M37.681,32.998l2.065,12.042c0.104,0.606-0.131,1.185-0.629,1.547  c-0.499,0.361-1.12,0.405-1.665,0.121l-10.815-5.687c-0.521-0.273-1.095-0.411-1.667-0.411s-1.145,0.138-1.667,0.412l-10.813,5.686  c-0.547,0.284-1.168,0.24-1.666-0.121c-0.498-0.362-0.732-0.94-0.629-1.547l2.065-12.042c0.199-1.162-0.186-2.348-1.03-3.17  L2.48,21.299c-0.441-0.43-0.591-1.036-0.4-1.621c0.19-0.586,0.667-0.988,1.276-1.077l12.091-1.757  c1.167-0.169,2.176-0.901,2.697-1.959l5.407-10.957c0.272-0.552,0.803-0.881,1.418-0.881c0.616,0,1.146,0.329,1.419,0.881  l5.407,10.957c0.521,1.058,1.529,1.79,2.696,1.959l12.092,1.757c0.609,0.089,1.086,0.491,1.276,1.077  c0.19,0.585,0.041,1.191-0.4,1.621l-8.749,8.528C37.866,30.65,37.481,31.835,37.681,32.998z"></path></svg></div><div class="details-toggle"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24.5 24.5" xml:space="preserve"><g><path d="M12.3,10.4l10-10c0.5-0.5,1.4-0.5,1.9,0s0.5,1.4,0,1.9l-10,10l10,10c0.5,0.5,0.5,1.4,0,1.9s-1.4,0.5-1.9,0 l-10-10l-10,10c-0.5,0.5-1.4,0.5-1.9,0s-0.5-1.4,0-1.9l10-10l-10-10c-0.5-0.5-0.5-1.4,0-1.9s1.4-0.5,1.9,0L12.3,10.4z"></path></g></svg></div><h3 class="title"><a href="https://www.dollywood.com/waterpark/Rides/SwiftWater-Run">
+							SwiftWater Run
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 9 15"><path d="M1.5,15c-0.4,0-0.8-0.1-1.1-0.4c-0.6-0.6-0.6-1.5,0-2.1l4.9-4.9L0.4,2.6C-0.1,2-0.1,1,0.4,0.4C1-0.1,2-0.1,2.6,0.4l6,6 C9.1,7,9.1,8,8.6,8.6l-6,6C2.3,14.8,1.9,15,1.5,15z"></path></svg></a></h3><div class="active-content"><div class="category"><span><!---->
+								Rides
+								<!----></span></div><div class="details"><div class="location"><i aria-hidden="true" class="fa fa-map-marker"></i>
+								
+							</div><h3 class="title">SwiftWater Run</h3><div class="description">It’s a rush of white water fun on SwiftWater Run, Dollywood’s Splash Country’s thrill ride.</div><a href="https://www.dollywood.com/waterpark/Rides/SwiftWater-Run" class="callout">
+								Take a Look
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 9 15"><path d="M1.5,15c-0.4,0-0.8-0.1-1.1-0.4c-0.6-0.6-0.6-1.5,0-2.1l4.9-4.9L0.4,2.6C-0.1,2-0.1,1,0.4,0.4C1-0.1,2-0.1,2.6,0.4l6,6 C9.1,7,9.1,8,8.6,8.6l-6,6C2.3,14.8,1.9,15,1.5,15z"></path></svg></a></div></div><div class="wipe"></div></div></div><div class="attraction" style="background-image: url(&quot;/-/media/Project/HFE/DW/Water-Park/Slides/TailSpin-Racer/TailSpin-Racer-Mobile-Hero--Attraction-Search.jpg&quot;);"><div class="gradient-top"></div><div class="gradient-bottom"></div><div class="content"><div class="category"><span><!---->
+							Rides
+							<!----></span></div><div class="save-event"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 49.94 49.94" xml:space="preserve" class="icon-star"><path d="M48.856,22.731c0.983-0.958,1.33-2.364,0.906-3.671c-0.425-1.307-1.532-2.24-2.892-2.438l-12.092-1.757  c-0.515-0.075-0.96-0.398-1.19-0.865L28.182,3.043c-0.607-1.231-1.839-1.996-3.212-1.996c-1.372,0-2.604,0.765-3.211,1.996  L16.352,14c-0.23,0.467-0.676,0.79-1.191,0.865L3.069,16.623C1.71,16.82,0.603,17.753,0.178,19.06  c-0.424,1.307-0.077,2.713,0.906,3.671l8.749,8.528c0.373,0.364,0.544,0.888,0.456,1.4L8.224,44.702  c-0.232,1.353,0.313,2.694,1.424,3.502c1.11,0.809,2.555,0.914,3.772,0.273l10.814-5.686c0.461-0.242,1.011-0.242,1.472,0  l10.815,5.686c0.528,0.278,1.1,0.415,1.669,0.415c0.739,0,1.475-0.231,2.103-0.688c1.111-0.808,1.656-2.149,1.424-3.502  L39.651,32.66c-0.088-0.513,0.083-1.036,0.456-1.4L48.856,22.731z M37.681,32.998l2.065,12.042c0.104,0.606-0.131,1.185-0.629,1.547  c-0.499,0.361-1.12,0.405-1.665,0.121l-10.815-5.687c-0.521-0.273-1.095-0.411-1.667-0.411s-1.145,0.138-1.667,0.412l-10.813,5.686  c-0.547,0.284-1.168,0.24-1.666-0.121c-0.498-0.362-0.732-0.94-0.629-1.547l2.065-12.042c0.199-1.162-0.186-2.348-1.03-3.17  L2.48,21.299c-0.441-0.43-0.591-1.036-0.4-1.621c0.19-0.586,0.667-0.988,1.276-1.077l12.091-1.757  c1.167-0.169,2.176-0.901,2.697-1.959l5.407-10.957c0.272-0.552,0.803-0.881,1.418-0.881c0.616,0,1.146,0.329,1.419,0.881  l5.407,10.957c0.521,1.058,1.529,1.79,2.696,1.959l12.092,1.757c0.609,0.089,1.086,0.491,1.276,1.077  c0.19,0.585,0.041,1.191-0.4,1.621l-8.749,8.528C37.866,30.65,37.481,31.835,37.681,32.998z"></path></svg></div><div class="details-toggle"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24.5 24.5" xml:space="preserve"><g><path d="M12.3,10.4l10-10c0.5-0.5,1.4-0.5,1.9,0s0.5,1.4,0,1.9l-10,10l10,10c0.5,0.5,0.5,1.4,0,1.9s-1.4,0.5-1.9,0 l-10-10l-10,10c-0.5,0.5-1.4,0.5-1.9,0s-0.5-1.4,0-1.9l10-10l-10-10c-0.5-0.5-0.5-1.4,0-1.9s1.4-0.5,1.9,0L12.3,10.4z"></path></g></svg></div><h3 class="title"><a href="https://www.dollywood.com/waterpark/Rides/TailSpin-Racer">
+							TailSpin Racer
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 9 15"><path d="M1.5,15c-0.4,0-0.8-0.1-1.1-0.4c-0.6-0.6-0.6-1.5,0-2.1l4.9-4.9L0.4,2.6C-0.1,2-0.1,1,0.4,0.4C1-0.1,2-0.1,2.6,0.4l6,6 C9.1,7,9.1,8,8.6,8.6l-6,6C2.3,14.8,1.9,15,1.5,15z"></path></svg></a></h3><div class="active-content"><div class="category"><span><!---->
+								Rides
+								<!----></span></div><div class="details"><div class="location"><i aria-hidden="true" class="fa fa-map-marker"></i>
+								
+							</div><h3 class="title">TailSpin Racer</h3><div class="description">Experience the wet and wild twists, turns and thrills of Dollywood’s Splash Country’s newest attraction, TailSpin Racer!</div><a href="https://www.dollywood.com/waterpark/Rides/TailSpin-Racer" class="callout">
+								Take a Look
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 9 15"><path d="M1.5,15c-0.4,0-0.8-0.1-1.1-0.4c-0.6-0.6-0.6-1.5,0-2.1l4.9-4.9L0.4,2.6C-0.1,2-0.1,1,0.4,0.4C1-0.1,2-0.1,2.6,0.4l6,6 C9.1,7,9.1,8,8.6,8.6l-6,6C2.3,14.8,1.9,15,1.5,15z"></path></svg></a></div></div><div class="wipe"></div></div></div><div class="attraction" style="background-image: url(&quot;/-/media/Project/HFE/DW/Water-Park/Slides/RiverRush/RiverRush-Mobile-Hero--Attraction-Search.jpg&quot;);"><div class="gradient-top"></div><div class="gradient-bottom"></div><div class="content"><div class="category"><span><!---->
+							Rides
+							<!----></span></div><div class="save-event"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 49.94 49.94" xml:space="preserve" class="icon-star"><path d="M48.856,22.731c0.983-0.958,1.33-2.364,0.906-3.671c-0.425-1.307-1.532-2.24-2.892-2.438l-12.092-1.757  c-0.515-0.075-0.96-0.398-1.19-0.865L28.182,3.043c-0.607-1.231-1.839-1.996-3.212-1.996c-1.372,0-2.604,0.765-3.211,1.996  L16.352,14c-0.23,0.467-0.676,0.79-1.191,0.865L3.069,16.623C1.71,16.82,0.603,17.753,0.178,19.06  c-0.424,1.307-0.077,2.713,0.906,3.671l8.749,8.528c0.373,0.364,0.544,0.888,0.456,1.4L8.224,44.702  c-0.232,1.353,0.313,2.694,1.424,3.502c1.11,0.809,2.555,0.914,3.772,0.273l10.814-5.686c0.461-0.242,1.011-0.242,1.472,0  l10.815,5.686c0.528,0.278,1.1,0.415,1.669,0.415c0.739,0,1.475-0.231,2.103-0.688c1.111-0.808,1.656-2.149,1.424-3.502  L39.651,32.66c-0.088-0.513,0.083-1.036,0.456-1.4L48.856,22.731z M37.681,32.998l2.065,12.042c0.104,0.606-0.131,1.185-0.629,1.547  c-0.499,0.361-1.12,0.405-1.665,0.121l-10.815-5.687c-0.521-0.273-1.095-0.411-1.667-0.411s-1.145,0.138-1.667,0.412l-10.813,5.686  c-0.547,0.284-1.168,0.24-1.666-0.121c-0.498-0.362-0.732-0.94-0.629-1.547l2.065-12.042c0.199-1.162-0.186-2.348-1.03-3.17  L2.48,21.299c-0.441-0.43-0.591-1.036-0.4-1.621c0.19-0.586,0.667-0.988,1.276-1.077l12.091-1.757  c1.167-0.169,2.176-0.901,2.697-1.959l5.407-10.957c0.272-0.552,0.803-0.881,1.418-0.881c0.616,0,1.146,0.329,1.419,0.881  l5.407,10.957c0.521,1.058,1.529,1.79,2.696,1.959l12.092,1.757c0.609,0.089,1.086,0.491,1.276,1.077  c0.19,0.585,0.041,1.191-0.4,1.621l-8.749,8.528C37.866,30.65,37.481,31.835,37.681,32.998z"></path></svg></div><div class="details-toggle"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24.5 24.5" xml:space="preserve"><g><path d="M12.3,10.4l10-10c0.5-0.5,1.4-0.5,1.9,0s0.5,1.4,0,1.9l-10,10l10,10c0.5,0.5,0.5,1.4,0,1.9s-1.4,0.5-1.9,0 l-10-10l-10,10c-0.5,0.5-1.4,0.5-1.9,0s-0.5-1.4,0-1.9l10-10l-10-10c-0.5-0.5-0.5-1.4,0-1.9s1.4-0.5,1.9,0L12.3,10.4z"></path></g></svg></div><h3 class="title"><a href="https://www.dollywood.com/waterpark/Rides/RiverRush">
+							RiverRush
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 9 15"><path d="M1.5,15c-0.4,0-0.8-0.1-1.1-0.4c-0.6-0.6-0.6-1.5,0-2.1l4.9-4.9L0.4,2.6C-0.1,2-0.1,1,0.4,0.4C1-0.1,2-0.1,2.6,0.4l6,6 C9.1,7,9.1,8,8.6,8.6l-6,6C2.3,14.8,1.9,15,1.5,15z"></path></svg></a></h3><div class="active-content"><div class="category"><span><!---->
+								Rides
+								<!----></span></div><div class="details"><div class="location"><i aria-hidden="true" class="fa fa-map-marker"></i>
+								
+							</div><h3 class="title">RiverRush</h3><div class="description">RiverRush<sup>®&nbsp;</sup>— it's Tennessee first and only water coaster! Get ready for the next generation of water coasters as RiverRush races through the Smoky Mountains.</div><a href="https://www.dollywood.com/waterpark/Rides/RiverRush" class="callout">
+								Take a Look
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 9 15"><path d="M1.5,15c-0.4,0-0.8-0.1-1.1-0.4c-0.6-0.6-0.6-1.5,0-2.1l4.9-4.9L0.4,2.6C-0.1,2-0.1,1,0.4,0.4C1-0.1,2-0.1,2.6,0.4l6,6 C9.1,7,9.1,8,8.6,8.6l-6,6C2.3,14.8,1.9,15,1.5,15z"></path></svg></a></div></div><div class="wipe"></div></div></div><div class="attraction" style="background-image: url(&quot;/-/media/Project/HFE/DW/Water-Park/Slides/Fire-Tower-Falls/Fire-Tower-Falls-Mobile-Hero--Attraction-Search.jpg&quot;);"><div class="gradient-top"></div><div class="gradient-bottom"></div><div class="content"><div class="category"><span><!---->
+							Rides
+							<!----></span></div><div class="save-event"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 49.94 49.94" xml:space="preserve" class="icon-star"><path d="M48.856,22.731c0.983-0.958,1.33-2.364,0.906-3.671c-0.425-1.307-1.532-2.24-2.892-2.438l-12.092-1.757  c-0.515-0.075-0.96-0.398-1.19-0.865L28.182,3.043c-0.607-1.231-1.839-1.996-3.212-1.996c-1.372,0-2.604,0.765-3.211,1.996  L16.352,14c-0.23,0.467-0.676,0.79-1.191,0.865L3.069,16.623C1.71,16.82,0.603,17.753,0.178,19.06  c-0.424,1.307-0.077,2.713,0.906,3.671l8.749,8.528c0.373,0.364,0.544,0.888,0.456,1.4L8.224,44.702  c-0.232,1.353,0.313,2.694,1.424,3.502c1.11,0.809,2.555,0.914,3.772,0.273l10.814-5.686c0.461-0.242,1.011-0.242,1.472,0  l10.815,5.686c0.528,0.278,1.1,0.415,1.669,0.415c0.739,0,1.475-0.231,2.103-0.688c1.111-0.808,1.656-2.149,1.424-3.502  L39.651,32.66c-0.088-0.513,0.083-1.036,0.456-1.4L48.856,22.731z M37.681,32.998l2.065,12.042c0.104,0.606-0.131,1.185-0.629,1.547  c-0.499,0.361-1.12,0.405-1.665,0.121l-10.815-5.687c-0.521-0.273-1.095-0.411-1.667-0.411s-1.145,0.138-1.667,0.412l-10.813,5.686  c-0.547,0.284-1.168,0.24-1.666-0.121c-0.498-0.362-0.732-0.94-0.629-1.547l2.065-12.042c0.199-1.162-0.186-2.348-1.03-3.17  L2.48,21.299c-0.441-0.43-0.591-1.036-0.4-1.621c0.19-0.586,0.667-0.988,1.276-1.077l12.091-1.757  c1.167-0.169,2.176-0.901,2.697-1.959l5.407-10.957c0.272-0.552,0.803-0.881,1.418-0.881c0.616,0,1.146,0.329,1.419,0.881  l5.407,10.957c0.521,1.058,1.529,1.79,2.696,1.959l12.092,1.757c0.609,0.089,1.086,0.491,1.276,1.077  c0.19,0.585,0.041,1.191-0.4,1.621l-8.749,8.528C37.866,30.65,37.481,31.835,37.681,32.998z"></path></svg></div><div class="details-toggle"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24.5 24.5" xml:space="preserve"><g><path d="M12.3,10.4l10-10c0.5-0.5,1.4-0.5,1.9,0s0.5,1.4,0,1.9l-10,10l10,10c0.5,0.5,0.5,1.4,0,1.9s-1.4,0.5-1.9,0 l-10-10l-10,10c-0.5,0.5-1.4,0.5-1.9,0s-0.5-1.4,0-1.9l10-10l-10-10c-0.5-0.5-0.5-1.4,0-1.9s1.4-0.5,1.9,0L12.3,10.4z"></path></g></svg></div><h3 class="title"><a href="https://www.dollywood.com/waterpark/Rides/Fire-Tower-Falls">
+							Fire Tower Falls
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 9 15"><path d="M1.5,15c-0.4,0-0.8-0.1-1.1-0.4c-0.6-0.6-0.6-1.5,0-2.1l4.9-4.9L0.4,2.6C-0.1,2-0.1,1,0.4,0.4C1-0.1,2-0.1,2.6,0.4l6,6 C9.1,7,9.1,8,8.6,8.6l-6,6C2.3,14.8,1.9,15,1.5,15z"></path></svg></a></h3><div class="active-content"><div class="category"><span><!---->
+								Rides
+								<!----></span></div><div class="details"><div class="location"><i aria-hidden="true" class="fa fa-map-marker"></i>
+								
+							</div><h3 class="title">Fire Tower Falls</h3><div class="description">Thrills are on the rise at Dollywood's Splash Country with Fire Tower Falls, the water parks' tallest and fastest slides!</div><a href="https://www.dollywood.com/waterpark/Rides/Fire-Tower-Falls" class="callout">
+								Take a Look
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 9 15"><path d="M1.5,15c-0.4,0-0.8-0.1-1.1-0.4c-0.6-0.6-0.6-1.5,0-2.1l4.9-4.9L0.4,2.6C-0.1,2-0.1,1,0.4,0.4C1-0.1,2-0.1,2.6,0.4l6,6 C9.1,7,9.1,8,8.6,8.6l-6,6C2.3,14.8,1.9,15,1.5,15z"></path></svg></a></div></div><div class="wipe"></div></div></div><div class="attraction" style="background-image: url(&quot;/-/media/Images/HFE/DW_COM/NEW-DW-SITE/App-Images/Rides-and-Attractions/DW-img-POI-RIDE-Thunderhead.jpg&quot;);"><div class="gradient-top"></div><div class="gradient-bottom"></div><div class="content"><div class="category"><span><!---->
+							Rides
+							<!----></span></div><div class="save-event"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 49.94 49.94" xml:space="preserve" class="icon-star"><path d="M48.856,22.731c0.983-0.958,1.33-2.364,0.906-3.671c-0.425-1.307-1.532-2.24-2.892-2.438l-12.092-1.757  c-0.515-0.075-0.96-0.398-1.19-0.865L28.182,3.043c-0.607-1.231-1.839-1.996-3.212-1.996c-1.372,0-2.604,0.765-3.211,1.996  L16.352,14c-0.23,0.467-0.676,0.79-1.191,0.865L3.069,16.623C1.71,16.82,0.603,17.753,0.178,19.06  c-0.424,1.307-0.077,2.713,0.906,3.671l8.749,8.528c0.373,0.364,0.544,0.888,0.456,1.4L8.224,44.702  c-0.232,1.353,0.313,2.694,1.424,3.502c1.11,0.809,2.555,0.914,3.772,0.273l10.814-5.686c0.461-0.242,1.011-0.242,1.472,0  l10.815,5.686c0.528,0.278,1.1,0.415,1.669,0.415c0.739,0,1.475-0.231,2.103-0.688c1.111-0.808,1.656-2.149,1.424-3.502  L39.651,32.66c-0.088-0.513,0.083-1.036,0.456-1.4L48.856,22.731z M37.681,32.998l2.065,12.042c0.104,0.606-0.131,1.185-0.629,1.547  c-0.499,0.361-1.12,0.405-1.665,0.121l-10.815-5.687c-0.521-0.273-1.095-0.411-1.667-0.411s-1.145,0.138-1.667,0.412l-10.813,5.686  c-0.547,0.284-1.168,0.24-1.666-0.121c-0.498-0.362-0.732-0.94-0.629-1.547l2.065-12.042c0.199-1.162-0.186-2.348-1.03-3.17  L2.48,21.299c-0.441-0.43-0.591-1.036-0.4-1.621c0.19-0.586,0.667-0.988,1.276-1.077l12.091-1.757  c1.167-0.169,2.176-0.901,2.697-1.959l5.407-10.957c0.272-0.552,0.803-0.881,1.418-0.881c0.616,0,1.146,0.329,1.419,0.881  l5.407,10.957c0.521,1.058,1.529,1.79,2.696,1.959l12.092,1.757c0.609,0.089,1.086,0.491,1.276,1.077  c0.19,0.585,0.041,1.191-0.4,1.621l-8.749,8.528C37.866,30.65,37.481,31.835,37.681,32.998z"></path></svg></div><div class="details-toggle"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24.5 24.5" xml:space="preserve"><g><path d="M12.3,10.4l10-10c0.5-0.5,1.4-0.5,1.9,0s0.5,1.4,0,1.9l-10,10l10,10c0.5,0.5,0.5,1.4,0,1.9s-1.4,0.5-1.9,0 l-10-10l-10,10c-0.5,0.5-1.4,0.5-1.9,0s-0.5-1.4,0-1.9l10-10l-10-10c-0.5-0.5-0.5-1.4,0-1.9s1.4-0.5,1.9,0L12.3,10.4z"></path></g></svg></div><h3 class="title"><a href="https://www.dollywood.com/themepark/Rides/Thunderhead">
+							Thunderhead
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 9 15"><path d="M1.5,15c-0.4,0-0.8-0.1-1.1-0.4c-0.6-0.6-0.6-1.5,0-2.1l4.9-4.9L0.4,2.6C-0.1,2-0.1,1,0.4,0.4C1-0.1,2-0.1,2.6,0.4l6,6 C9.1,7,9.1,8,8.6,8.6l-6,6C2.3,14.8,1.9,15,1.5,15z"></path></svg></a></h3><div class="active-content"><div class="category"><span><!---->
+								Rides
+								<!----></span></div><div class="details"><div class="location"><i aria-hidden="true" class="fa fa-map-marker"></i>
+								Timber Canyon
+							</div><h3 class="title">Thunderhead</h3><div class="description">An old sawmill once moved lumber out of the mountains at Thunderhead Gap.&nbsp; Wood is still the focus, but now the operation known as the Thunderhead is the wildest ride in the woods!</div><a href="https://www.dollywood.com/themepark/Rides/Thunderhead" class="callout">
+								Take a Look
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 9 15"><path d="M1.5,15c-0.4,0-0.8-0.1-1.1-0.4c-0.6-0.6-0.6-1.5,0-2.1l4.9-4.9L0.4,2.6C-0.1,2-0.1,1,0.4,0.4C1-0.1,2-0.1,2.6,0.4l6,6 C9.1,7,9.1,8,8.6,8.6l-6,6C2.3,14.8,1.9,15,1.5,15z"></path></svg></a></div></div><div class="wipe"></div></div></div><div class="attraction" style="background-image: url(&quot;/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DW/Rides-Attractions/DragonFlier/DF-mobile.jpg&quot;);"><div class="gradient-top"></div><div class="gradient-bottom"></div><div class="content"><div class="category"><span><!---->
+							Rides
+							<!----></span></div><div class="save-event"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 49.94 49.94" xml:space="preserve" class="icon-star"><path d="M48.856,22.731c0.983-0.958,1.33-2.364,0.906-3.671c-0.425-1.307-1.532-2.24-2.892-2.438l-12.092-1.757  c-0.515-0.075-0.96-0.398-1.19-0.865L28.182,3.043c-0.607-1.231-1.839-1.996-3.212-1.996c-1.372,0-2.604,0.765-3.211,1.996  L16.352,14c-0.23,0.467-0.676,0.79-1.191,0.865L3.069,16.623C1.71,16.82,0.603,17.753,0.178,19.06  c-0.424,1.307-0.077,2.713,0.906,3.671l8.749,8.528c0.373,0.364,0.544,0.888,0.456,1.4L8.224,44.702  c-0.232,1.353,0.313,2.694,1.424,3.502c1.11,0.809,2.555,0.914,3.772,0.273l10.814-5.686c0.461-0.242,1.011-0.242,1.472,0  l10.815,5.686c0.528,0.278,1.1,0.415,1.669,0.415c0.739,0,1.475-0.231,2.103-0.688c1.111-0.808,1.656-2.149,1.424-3.502  L39.651,32.66c-0.088-0.513,0.083-1.036,0.456-1.4L48.856,22.731z M37.681,32.998l2.065,12.042c0.104,0.606-0.131,1.185-0.629,1.547  c-0.499,0.361-1.12,0.405-1.665,0.121l-10.815-5.687c-0.521-0.273-1.095-0.411-1.667-0.411s-1.145,0.138-1.667,0.412l-10.813,5.686  c-0.547,0.284-1.168,0.24-1.666-0.121c-0.498-0.362-0.732-0.94-0.629-1.547l2.065-12.042c0.199-1.162-0.186-2.348-1.03-3.17  L2.48,21.299c-0.441-0.43-0.591-1.036-0.4-1.621c0.19-0.586,0.667-0.988,1.276-1.077l12.091-1.757  c1.167-0.169,2.176-0.901,2.697-1.959l5.407-10.957c0.272-0.552,0.803-0.881,1.418-0.881c0.616,0,1.146,0.329,1.419,0.881  l5.407,10.957c0.521,1.058,1.529,1.79,2.696,1.959l12.092,1.757c0.609,0.089,1.086,0.491,1.276,1.077  c0.19,0.585,0.041,1.191-0.4,1.621l-8.749,8.528C37.866,30.65,37.481,31.835,37.681,32.998z"></path></svg></div><div class="details-toggle"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24.5 24.5" xml:space="preserve"><g><path d="M12.3,10.4l10-10c0.5-0.5,1.4-0.5,1.9,0s0.5,1.4,0,1.9l-10,10l10,10c0.5,0.5,0.5,1.4,0,1.9s-1.4,0.5-1.9,0 l-10-10l-10,10c-0.5,0.5-1.4,0.5-1.9,0s-0.5-1.4,0-1.9l10-10l-10-10c-0.5-0.5-0.5-1.4,0-1.9s1.4-0.5,1.9,0L12.3,10.4z"></path></g></svg></div><h3 class="title"><a href="https://www.dollywood.com/themepark/Rides/Dragonflier">
+							Dragonflier
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 9 15"><path d="M1.5,15c-0.4,0-0.8-0.1-1.1-0.4c-0.6-0.6-0.6-1.5,0-2.1l4.9-4.9L0.4,2.6C-0.1,2-0.1,1,0.4,0.4C1-0.1,2-0.1,2.6,0.4l6,6 C9.1,7,9.1,8,8.6,8.6l-6,6C2.3,14.8,1.9,15,1.5,15z"></path></svg></a></h3><div class="active-content"><div class="category"><span><!---->
+								Rides
+								<!----></span></div><div class="details"><div class="location"><i aria-hidden="true" class="fa fa-map-marker"></i>
+								Wildwood Grove
+							</div><h3 class="title">Dragonflier</h3><div class="description"><p>One of the most playful creatures inhabiting the Wildwood Grove’s creekside , Dragonflier mimics the flight of a Smoky Mountain dragonfly.</p></div><a href="https://www.dollywood.com/themepark/Rides/Dragonflier" class="callout">
+								Take a Look
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 9 15"><path d="M1.5,15c-0.4,0-0.8-0.1-1.1-0.4c-0.6-0.6-0.6-1.5,0-2.1l4.9-4.9L0.4,2.6C-0.1,2-0.1,1,0.4,0.4C1-0.1,2-0.1,2.6,0.4l6,6 C9.1,7,9.1,8,8.6,8.6l-6,6C2.3,14.8,1.9,15,1.5,15z"></path></svg></a></div></div><div class="wipe"></div></div></div></div><!----></div><button class="cta">Load More</button><div id="attractionGridAddSuccess" tabindex="-1" role="dialog" aria-labelledby="attractionGridAddSuccess" aria-hidden="true" class="hfe-alert modal"><div role="document" class="modal-dialog modal-sm modal-dialog-centered"><div class="modal-content" style="background-color: rgb(109, 190, 63);"><div class="modal-body"><button type="button" data-dismiss="modal" aria-label="Close Modal" class="close"></button><div class="alert-icon"><img src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/icon-check.svg" alt="icon"></div><div class="message">1 item successfully added to your Itinerary Planner.</div><!----><a href="https://www.dollywood.com/Plan-Your-Visit/Itinerary-Planner">
+                        Go Now
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 9 15" class="icon-arrow-thick"><path d="M1.5,15c-0.4,0-0.8-0.1-1.1-0.4c-0.6-0.6-0.6-1.5,0-2.1l4.9-4.9L0.4,2.6C-0.1,2-0.1,1,0.4,0.4C1-0.1,2-0.1,2.6,0.4l6,6 C9.1,7,9.1,8,8.6,8.6l-6,6C2.3,14.8,1.9,15,1.5,15z"></path></svg></a></div></div></div></div></div>
+    <div class="promo-image container ">
+            <div class="photo">
+                <img src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/DW-img-POI-FOOD-GristMill.jpg" alt="">
+                <div class="clearfix"></div>
+            </div>
+        <div class="details">
+            <div class="caption">
+                    <h5 class="subtitle">YUMMMMM</h5>
+                                    <h3 class="title">Maybe Just One More Bite</h3>
+                                    <div class="description"><p>Our full-service and buffet-style restaurants are perfect for meals together as a family. Or, pick up something on-the-go at any quick-service concession stand for a snack break during the fun. Our world-famous cinnamon bread is a sweet finish (or start!) to your visit. </p></div>
+                <a href="https://www.dollywood.com/themepark/Dining" class="cta">Check Out Our Options!</a>            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+
+
+
+    <div class="card-carousel">
+        <div class="carousel-details container">
+
+
+                <h2 class="title">Lodging Options</h2>
+
+                <div class="body"><p>Looking for the complete family getaway in the Smoky Mountains? Dollywood's DreamMore Resort &amp; Spa and Dollywood's Smoky Mountain Cabins offer the perfect opportunities for families to reconnect.</p></div>
+        </div>
+
+        <div class="background" style="">
+            <div class="gradient"></div>
+            <div class="container">
+                <div class="swiper-container swiper-container-horizontal">
+                    <div class="swiper-wrapper">
+
+    <div class="swiper-slide swiper-slide-active" style="width: 343.333px; margin-right: 40px;">
+        <div class="slide-photo" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DMR/External/Half-Spot/hs-dmrflash.jpg);">
+
+        </div>
+
+        <div class="slide-body">
+            <div class="slide-details" style="margin-bottom: 58px;">
+                    <h3 class="slide-title">DreamMore Resort &amp; Spa</h3>
+
+                    <div class="slide-description"><p>Centered on the rich traditions of storytelling, family and togetherness, the resort features many special touches including family sanctuaries like fire pits, swings and hammocks plus story spots scattered throughout the grounds.</p></div>
+
+<a href="https://www.dollywood.com/Resort" class="slide-callout">Explore More                        <svg class="cta-arrow" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                        <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path></svg>
+</a>            </div>
+        </div>
+    </div>
+
+    <div class="swiper-slide swiper-slide-next" style="width: 343.333px; margin-right: 40px;">
+        <div class="slide-photo" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/DWC/Half-Spot/DWC-Guests-Outside-HS.jpg);">
+
+        </div>
+
+        <div class="slide-body">
+            <div class="slide-details" style="margin-bottom: 58px;">
+                    <h3 class="slide-title">Smoky Mountain Cabins</h3>
+
+                    <div class="slide-description"><p>Pick the cabin that best suits your family by choosing from amenities such as stunning mountain views, outdoor hot tubs, game rooms, state-of-the-art electronics and more.</p></div>
+
+<a href="https://www.dollywood.com/Cabins" class="slide-callout">Explore More                        <svg class="cta-arrow" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                        <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path></svg>
+</a>            </div>
+        </div>
+    </div>
+
+    <div class="swiper-slide" style="width: 343.333px; margin-right: 40px;">
+        <div class="slide-photo" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/Half-Spot/DMR/Rooms/DMR-Rooms_1.jpg);">
+
+        </div>
+
+        <div class="slide-body">
+            <div class="slide-details" style="margin-bottom: 58px;">
+                    <h3 class="slide-title">Area Hotels</h3>
+
+                    <div class="slide-description"><p>Our off-site hotel package provide lodging at the value you want.</p></div>
+
+<a href="https://dollywood.reservedirect.com/" class="slide-callout">Explore More                        <svg class="cta-arrow" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8 14" xml:space="preserve">
+                        <path d="M5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0l6,6c0.4,0.4,0.4,1,0,1.4l-6,6 c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7z"></path></svg>
+</a>            </div>
+        </div>
+    </div>
+                        
+                    </div>
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                <div class="swiper-button-prev swiper-button-disabled" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 15.5 28.7" style="enable-background:new 0 0 15.5 28.7;" xml:space="preserve">
+                    <path d="M13.7,28.3l-13-13.1c-0.9-0.9,0.5-2.4,1.4-1.4l13,13.1C16,27.8,14.6,29.2,13.7,28.3z M15.1,2.1L2,15.2
+	c-0.9,0.9-2.3-0.5-1.4-1.4l13-13.2C14.6-0.3,16,1.1,15.1,2.1z"></path>
+                    </svg>
+                </div>
+                <div class="swiper-button-next swiper-button-disabled" tabindex="0" role="button" aria-label="Next slide" aria-disabled="true">
+                    <svg class="icon-arrow-right-thin" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 15.6 28.7" xml:space="preserve">
+                    <path d="M1.7,0.3l13.5,13.3c0.9,0.9-0.5,2.4-1.4,1.4L0.3,1.7C-0.6,0.8,0.8-0.6,1.7,0.3z M0.3,26.9 l13.5-13.3c0.9-0.9,2.4,0.5,1.4,1.4L1.7,28.4C0.8,29.3-0.6,27.9,0.3,26.9z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="tickets-and-passes">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="season-pass">
+                        <div class="row no-gutters">
+                            <div class="col-lg-5 order-2 order-lg-1">
+                                <div class="card-body">
+
+                                        <h3>2 Days Less Than $50 Per Day</h3>
+
+                                        <h4>Get a ticket for 2 days to Dollywood Theme Park</h4>
+
+                                        <div class="price-text">
+                                            Regular Adult Price
+                                        </div>
+
+                                        <div class="age-group-text">
+                                            Ages (10-61)
+                                        </div>
+
+                                        <div class="price">
+                                            <sup>$</sup>99
+                                        </div>
+
+
+
+                                        <div>
+                                            <a href="https://www.dollywood.com/store/cat=dw-catalog-theme-park/tik=ticketfamily132" class="card-cta">SELECT TWO DAY</a>
+                                        </div>
+
+
+                                        <div class="card-footer bg-transparent border-0 card-list-items">
+                                            Child &amp; senior pricing available.<br>
+Prices do not include tax.
+                                        </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-7 order-1 order-lg-2">
+                                <div class="card-img-container d-none d-sm-block" style="background-image: url(/-/media/Images/HFE/DW_COM/NEW-DW-SITE/Tall-Heroes-Mobile/DW/Dining/dining-Funnel-Cakes-MT.jpg);">
+                                    <img src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/dining-Funnel-Cakes-MT.jpg" class="card-img" alt="">
+                                </div>
+                                <div class="card-img-container d-block d-sm-none">
+                                    <img src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/dining-Funnel-Cakes-MT.jpg" class="card-img" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="newsletter-signup container">
+            <h2 class="title">Get the Latest News and Special Offers</h2>
+                    <div class="description">Subscribe to our newsletter, special offers and promotional emails.</div>
+        <form class="signup-form" action="https://www.dollywood.com/Email-Newsletter" method="post">
+            <input type="text" name="newsletteremail" placeholder="Enter your email address">
+            <input type="submit" value="Sign Up">
+        </form>
+
+    </div>
+
+
+<div class="modal fade modalPopupClass" id="charlotte" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document" style="max-width:95%;">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle"></h5>
+                <a class="fancybox-close" data-dismiss="modal" aria-label="Close">
+                </a>
+            </div>
+
+            <div class="modal-body">
+                <div class="embed-container"><iframe src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/392824176.html" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe></div>
+<style>
+.embed-container { 
+   position: relative; 
+   padding-bottom: 32%; 
+   height: 0;
+   overflow: hidden; 
+   max-width: 100%; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed { 
+   position: absolute; 
+   top: 0; 
+   left: 0; 
+   width: 100%; 
+   height: 100%; 
+}
+</style>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            
+        </div>
+
+
+        <footer>
+            <div class="container">
+                <nav class="footer-main-nav" aria-label="footer-main-nav">
+
+                            <div class="column">
+                                        <div class="section ">
+
+                                                <h3>
+<a href="https://www.dollywood.com/Tickets">Book Your Trip!</a>                                                                                                    </h3>
+                                                                                            <ul>
+                <li><a href="tel:18003655996">1-800-365-5996</a></li>
+    </ul>
+                                                                                                                                                                                                                                                                    </div>
+                                        <div class="section ">
+
+                                                <h3 class="mobile-accordion-toggle">
+Help                                                                                                            <img src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/icon-arrow-down-thick-white.svg">
+                                                </h3>
+                                            <div class="mobile-accordion">                                                <ul>
+                <li><a href="https://www.dollywood.com/Plan-Your-Visit/FAQs">FAQ</a></li>
+                <li><a href="https://www.dollywood.com/Plan-Your-Visit/Guest-Services">Guest Services</a></li>
+                <li><a href="https://www.dollywood.com/Plan-Your-Visit/Accessibility">Guests with Disabilities</a></li>
+    </ul>
+                                                                                                                                                                                                                            </div>                                        </div>
+                                        <div class="section ">
+
+                                                <h3 class="mobile-accordion-toggle">
+<a href="https://www.dollywood.com/About-Us">About Us</a>                                                                                                            <img src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/icon-arrow-down-thick-white.svg">
+                                                </h3>
+                                            <div class="mobile-accordion">                                                <ul>
+                <li><a href="https://www.dollywood.com/Employment">Careers</a></li>
+                <li><a href="https://www.dollywood.com/Community-Relations">Community Relations</a></li>
+                <li><a href="https://www.dollywood.com/Partners">Partners</a></li>
+                <li><a href="https://www.dollywood.com/Media/Media-Room">Media Room</a></li>
+                <li><a href="https://www.dollywood.com/Media/MediaAdmissionRequestPolicy">Traditional Media Admission Request</a></li>
+                <li><a href="https://www.dollywood.com/Media/Digital-Admission-Request">Digital Media Admission Request</a></li>
+                <li><a href="https://www.dollywood.com/Contact-Us">Contact Us</a></li>
+    </ul>
+                                                                                                                                                                                                                            </div>                                        </div>
+                            </div>
+                            <div class="column">
+                                        <div class="section ">
+
+                                                <h3 class="mobile-accordion-toggle">
+Find Us                                                                                                            <img src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/icon-arrow-down-thick-white.svg">
+                                                </h3>
+                                            <div class="mobile-accordion">                                                <ul>
+                <li><a href="https://www.dollywood.com/Destination-Map">Destination &amp; Park Maps</a></li>
+                <li><a href="https://www.dollywood.com/Directions/How-to-get-to-Dollywood">Driving Directions &amp; Maps</a></li>
+                <li><a href="https://www.google.com/maps?q=2700+Dollywood+Parks+Blvd,+Pigeon+Forge,+TN+37863&amp;hl=en&amp;sll=37.0625,-95.677068&amp;sspn=47.885545,107.138672&amp;vpsrc=0&amp;hnear=2700+Dollywood+Parks+Blvd,+Pigeon+Forge,+TN+37863&amp;t=h&amp;z=16">Google Maps</a></li>
+    </ul>
+                                            <ul>
+    <li><strong>Dollywood Theme Park</strong></li>
+    <li>2700 Dollywood Parks Blvd.</li>
+    <li>Pigeon Forge, TN 37863</li>
+</ul>
+<ul>
+    <li><strong>Dollywood's DreamMore Resort</strong></li>
+    <li>2525 DreamMore Way</li>
+    <li>Pigeon Forge, TN 37863</li>
+    <li>Reservations: 1-800-365-5996 (Option 2)</li>
+    <li>Resort Front Desk: 865-365-1900</li>
+</ul>
+<ul>
+    <li><strong><a href="https://www.dollywood.com/Resort/Dining/SongandHearth">Make Dining Reservations at Song &amp; Hearth</a></strong></li>
+</ul>                                                                                                                                                                                </div>                                        </div>
+                            </div>
+                            <div class="column">
+                                        <div class="section ">
+
+                                                <h3>
+Connect With Us                                                                                                    </h3>
+                                                                                                                                                                                    <ul class="social">
+            <li>
+<a href="http://www.facebook.com/dollywood" target="_blank"><span class="fab fa-facebook-f"></span></a>            </li>
+            <li>
+<a href="https://twitter.com/Dollywood" target="_blank"><span class="fab fa-twitter"></span></a>            </li>
+            <li>
+<a href="https://www.youtube.com/channel/UCq9QhpqEXcsvp6ZC9LK7j_g" target="_blank"><span class="fab fa-youtube"></span></a>            </li>
+            <li>
+<a href="https://www.instagram.com/dollywood/" target="_blank"><span class="fab fa-instagram"></span></a>            </li>
+    </ul>
+                                                                                                                                                                            </div>
+                                        <div class="section ">
+
+                                                <h3>
+Official Sponsors                                                                                                    </h3>
+                                                                                                                                                                                                                                <ul class="sponsors">
+            <li>
+<a href="https://www.dollywood.com/Partners"><img src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/COVENANT-HEALTH-White.png" alt="Covenant Health Logo"></a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Partners"><img src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/tva-white.jpg" alt="Tennessee Valley Authority Logo"></a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Partners"><img src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/humana_trans.png" alt="Humana"></a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Partners"><img src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/15514CY-red-coke-disk.png" alt="Coca-Cola Logo"></a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Partners"><img src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/GGC_white_thumbnail.png" alt="Goo Goo Clusters"></a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Partners"><img src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/BushLogo.png" alt="Bush&#39;s Best Logo"></a>            </li>
+            <li>
+<a href="https://www.dollywood.com/Partners"><img src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/SB_logo_RGB_whiteSB_outerglow.png" alt="Smart Bank Logo"></a>            </li>
+    </ul>
+                                                                                                                                </div>
+                                        <div class="section app-download">
+
+                                                <h3>
+Download the App                                                                                                    </h3>
+                                                                                                                                                                                                                                                                                <ul>
+                <li>
+<a href="https://www.dollywood.com/"><img src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/app-store-apple.png" alt=""></a>                </li>
+                <li>
+<a href="https://www.dollywood.com/"><img src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/app-store-google.png" alt=""></a>                </li>
+        </ul>
+                                                                                    </div>
+                            </div>
+                </nav>
+            </div>
+
+            <div class="footer-legal">
+
+                <div class="container">
+
+                    <div class="logo">
+                        <a href="https://www.dollywood.com/">
+<img src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/logo-dollywood.png" alt="">                        </a>
+                    </div>
+
+                    <div class="legal" role="contentinfo">
+<span class="copyright">© Copyright 2020. All Rights Reserved.</span>
+<nav class="footer-legal-nav" role="navigation" aria-labelledby="copyrightNav">
+<span id="copyrightNav" style="visibility: hidden;display: none;">Legal and Informational Links</span>
+<ul>
+    <li><a href="https://www.dollywood.com/Terms-Of-Use">Terms of Use</a></li>
+    <li><a href="https://www.dollywood.com/Privacy">Privacy</a></li>
+    <li><a href="https://www.dollywood.com/Employment">Careers</a></li>
+</ul>
+</nav>                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+</div>
+
+    
+
+<!-- Google Tag Manager 200211 AG -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MVSP92');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager for GCommerce - 200211 AG -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PX62L6');</script>
+<!-- End of GTM -->
+<script src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/optimized-min.js"></script><script src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/optimized-min(5).js"></script><script src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/optimized-min(6).js"></script><script src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/optimized-min(7).js"></script><script src="./Plan Your Visit _ Dollywood Parks &amp; Resorts_files/optimized-min(8).js"></script>        
+
+</body></html>
